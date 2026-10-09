@@ -29,6 +29,19 @@
   gap: var(--space-3);
   overflow: hidden;
   white-space: nowrap;
+  min-width: 0;
+}
+
+@media (max-width: 480px) {
+  .top-bar-ticker {
+    gap: var(--space-2);
+  }
+  .ticker-label {
+    display: none;
+  }
+  .ticker-value {
+    font-size: 11px;
+  }
 }
 
 .ticker-pulse {
@@ -110,16 +123,29 @@
   gap: var(--space-4);
 }
 
+@media (max-width: 480px) {
+  .header-container {
+    gap: var(--space-2);
+  }
+}
+
 .site-brand {
   display: flex;
   align-items: center;
   text-decoration: none;
+  flex-shrink: 0;
 }
 
 .site-brand img {
   height: 44px;
   width: auto;
   display: block;
+}
+
+@media (max-width: 400px) {
+  .site-brand img {
+    height: 32px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -217,6 +243,23 @@
   display: flex;
   align-items: center;
   gap: var(--space-3);
+  flex-shrink: 0;
+}
+
+@media (max-width: 480px) {
+  .header-actions {
+    gap: var(--space-2);
+  }
+  /* Language selector available in the full drawer instead */
+  .header-actions .lang-selector {
+    display: none;
+  }
+  /* Tighter CTA button */
+  .header-actions .btn-sm {
+    padding: var(--space-2) var(--space-3);
+    font-size: 11px;
+    white-space: nowrap;
+  }
 }
 
 @media (min-width: 768px) {
@@ -387,6 +430,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+@media (max-width: 380px) {
+  .drawer-link {
+    font-size: var(--text-xl);
+  }
 }
 
 .drawer-link:hover, .drawer-link.active {
@@ -625,17 +674,27 @@
   padding-top: var(--space-6);
   font-size: var(--text-xs);
   color: var(--color-text-subtle);
+  text-align: center;
 }
 
 @media (min-width: 768px) {
   .footer-bottom {
     flex-direction: row;
+    text-align: left;
   }
 }
 
 .footer-bottom-links {
   display: flex;
-  gap: var(--space-4);
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-3);
+}
+
+@media (min-width: 768px) {
+  .footer-bottom-links {
+    gap: var(--space-4);
+  }
 }
 
 .footer-bottom-links a {
@@ -644,4 +703,15 @@
 
 .footer-bottom-links a:hover {
   color: var(--color-text-primary);
+}
+
+/* Footer brand description word wrap safety */
+@media (max-width: 480px) {
+  .footer-brand p {
+    font-size: var(--text-xs);
+  }
+  .footer-disclaimer {
+    font-size: 11px;
+    word-break: break-word;
+  }
 }
