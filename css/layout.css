@@ -516,7 +516,11 @@
 .floating-whatsapp svg {
   width: 32px;
   height: 32px;
-  fill: currentColor;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.7;
 }
 
 @media (max-width: 767px) {
