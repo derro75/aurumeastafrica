@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700" width="100%" height="100%" fill="none">
+  <defs>
+    <radialGradient id="studioLighting250" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#1B2028" />
+      <stop offset="100%" stop-color="#080A0D" />
+    </radialGradient>
+    <linearGradient id="mintedGoldGrad250" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF5D8" />
+      <stop offset="30%" stop-color="#E5C77A" />
+      <stop offset="70%" stop-color="#A57E2A" />
+      <stop offset="100%" stop-color="#84601A" />
+    </linearGradient>
+    <filter id="shadow250">
+      <feDropShadow dx="0" dy="20" stdDeviation="20" flood-color="#000000" flood-opacity="0.8"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="700" rx="16" fill="url(#studioLighting250)"/>
+  <ellipse cx="300" cy="550" rx="140" ry="24" fill="#000000" opacity="0.8" />
+
+  <g transform="translate(195, 130)" filter="url(#shadow250)">
+    <rect width="210" height="380" rx="10" fill="#694D14" stroke="#FFF0C2" stroke-width="1.2"/>
+    <rect x="7" y="7" width="196" height="366" rx="6" fill="url(#mintedGoldGrad250)"/>
+    <rect x="12" y="12" width="186" height="356" rx="4" fill="none" stroke="#FFE7A0" stroke-width="0.8" opacity="0.7"/>
+
+    <circle cx="105" cy="60" r="24" fill="none" stroke="#52390B" stroke-width="1.8"/>
+    <text x="105" y="66" text-anchor="middle" font-family="'Cormorant Garamond', serif" font-weight="700" font-size="14" fill="#52390B">AEA</text>
+
+    <text x="105" y="115" text-anchor="middle" font-family="'Cormorant Garamond', serif" font-weight="700" font-size="20" letter-spacing="3" fill="#52390B">AURUM</text>
+    <text x="105" y="132" text-anchor="middle" font-family="'Inter', sans-serif" font-weight="700" font-size="8" letter-spacing="3" fill="#52390B">EAST AFRICA</text>
+
+    <text x="105" y="195" text-anchor="middle" font-family="'Inter', sans-serif" font-weight="800" font-size="24" fill="#52390B">250 g</text>
+    <text x="105" y="218" text-anchor="middle" font-family="'Inter', sans-serif" font-weight="700" font-size="11" letter-spacing="2" fill="#52390B">FINE GOLD</text>
+    <text x="105" y="265" text-anchor="middle" font-family="'Inter', sans-serif" font-weight="800" font-size="30" letter-spacing="2" fill="#52390B">999.9</text>
+
+    <text x="105" y="340" text-anchor="middle" font-family="'Inter', monospace" font-size="11" font-weight="700" letter-spacing="2" fill="#52390B">AE-250-4491</text>
+  </g>
+</svg>

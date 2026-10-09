@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100" fill="none">
+  <defs>
+    <linearGradient id="markGoldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EED9A6" />
+      <stop offset="30%" stop-color="#C9A24B" />
+      <stop offset="70%" stop-color="#8F6E24" />
+      <stop offset="100%" stop-color="#DEB86A" />
+    </linearGradient>
+    <radialGradient id="markCenterGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#EED9A6" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0B0D10" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="100" height="100" rx="20" fill="#0E1116" stroke="url(#markGoldGrad)" stroke-width="1.5"/>
+  <circle cx="50" cy="50" r="38" fill="url(#markCenterGlow)" />
+  
+  <!-- Outer faceted octagon -->
+  <polygon points="50,14 74,27 82,50 74,73 50,86 26,73 18,50 26,27" fill="#14181F" stroke="url(#markGoldGrad)" stroke-width="1.2" />
+
+  <!-- 3D Geometric Ingot facets -->
+  <path d="M50,22 L72,35 L50,48 L28,35 Z" fill="url(#markGoldGrad)" opacity="0.95" />
+  <path d="M28,35 L50,48 L50,76 L28,63 Z" fill="#8F6E24" />
+  <path d="M50,48 L72,35 L72,63 L50,76 Z" fill="#C9A24B" />
+
+  <!-- Hallmark center dot -->
+  <circle cx="50" cy="49" r="2.5" fill="#FFF4D4" />
+</svg>

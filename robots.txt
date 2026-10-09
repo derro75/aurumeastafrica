@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /assets/documents/*.pdf$
+Disallow: /*?compare=
+
+Sitemap: https://aurumeastafrica.com/sitemap.xml

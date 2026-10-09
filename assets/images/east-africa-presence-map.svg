@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 550" width="100%" height="100%" fill="none">
+  <defs>
+    <radialGradient id="mapBg" cx="50%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#181D26" />
+      <stop offset="100%" stop-color="#0B0D11" />
+    </radialGradient>
+    <linearGradient id="corridorLine" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E5C77A" />
+      <stop offset="100%" stop-color="#C9A24B" stop-opacity="0.3"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="550" rx="16" fill="url(#mapBg)" stroke="#222834" stroke-width="1.5"/>
+
+  <!-- Regional Map Grid / Subtle Coordinates -->
+  <g stroke="#1F2532" stroke-width="1" stroke-dasharray="3,3">
+    <line x1="100" y1="0" x2="100" y2="550"/>
+    <line x1="250" y1="0" x2="250" y2="550"/>
+    <line x1="400" y1="0" x2="400" y2="550"/>
+    <line x1="550" y1="0" x2="550" y2="550"/>
+    <line x1="700" y1="0" x2="700" y2="550"/>
+    <line x1="0" y1="120" x2="800" y2="120"/>
+    <line x1="0" y1="260" x2="800" y2="260"/>
+    <line x1="0" y1="400" x2="800" y2="400"/>
+  </g>
+
+  <!-- Stylized Landmass Contours (Great Lakes & East Africa) -->
+  <path d="M160,180 Q220,140 320,130 Q440,110 520,160 Q600,200 660,260 Q720,340 680,440 Q580,480 480,440 Q380,420 300,450 Q200,430 150,340 Z" fill="#131720" stroke="#2D3545" stroke-width="1.2"/>
+  
+  <!-- Lake Victoria Representation -->
+  <ellipse cx="440" cy="330" rx="38" ry="46" fill="#0C1017" stroke="#3A4358" stroke-width="1"/>
+
+  <!-- Flight / Transit Corridors -->
+  <!-- Juba to Nairobi -->
+  <path d="M370,150 Q460,200 520,330" stroke="url(#corridorLine)" stroke-width="2" stroke-dasharray="6,4"/>
+  <!-- Goma to Nairobi -->
+  <path d="M290,320 Q400,340 520,330" stroke="url(#corridorLine)" stroke-width="2" stroke-dasharray="6,4"/>
+  <!-- Export Route Nairobi to International Corridor -->
+  <path d="M520,330 Q630,280 720,200" stroke="#34D399" stroke-width="2" stroke-dasharray="6,4" opacity="0.8"/>
+
+  <!-- NODE 1: JUBA, SOUTH SUDAN -->
+  <g transform="translate(370, 150)">
+    <circle cx="0" cy="0" r="14" fill="#C9A24B" opacity="0.2"/>
+    <circle cx="0" cy="0" r="6" fill="#C9A24B"/>
+    <rect x="-85" y="-55" width="170" height="42" rx="6" fill="#141820" stroke="#C9A24B" stroke-width="1"/>
+    <text x="0" y="-36" text-anchor="middle" font-family="'Inter', sans-serif" font-weight="700" font-size="11" fill="#F5F1E8">JUBA BRANCH</text>
+    <text x="0" y="-22" text-anchor="middle" font-family="'Inter', sans-serif" font-size="9" fill="#A8A396">South Sudan • Trading Desk</text>
+  </g>
+
+  <!-- NODE 2: GOMA / KINSHASA, DRC -->
+  <g transform="translate(290, 320)">
+    <circle cx="0" cy="0" r="14" fill="#C9A24B" opacity="0.2"/>
+    <circle cx="0" cy="0" r="6" fill="#C9A24B"/>
+    <rect x="-95" y="16" width="190" height="42" rx="6" fill="#141820" stroke="#C9A24B" stroke-width="1"/>
+    <text x="0" y="34" text-anchor="middle" font-family="'Inter', sans-serif" font-weight="700" font-size="11" fill="#F5F1E8">DRC REGIONAL COMPTOIR</text>
+    <text x="0" y="48" text-anchor="middle" font-family="'Inter', sans-serif" font-size="9" fill="#A8A396">Goma &amp; Kinshasa • Intake Lab</text>
+  </g>
+
+  <!-- NODE 3: NAIROBI, KENYA (HQ) -->
+  <g transform="translate(520, 330)">
+    <circle cx="0" cy="0" r="24" fill="#C9A24B" opacity="0.25"/>
+    <circle cx="0" cy="0" r="12" fill="#E5C77A" stroke="#8F6E24" stroke-width="2"/>
+    <circle cx="0" cy="0" r="4" fill="#0E1116"/>
+    <rect x="-110" y="22" width="220" height="50" rx="8" fill="#141820" stroke="#E5C77A" stroke-width="1.5"/>
+    <text x="0" y="42" text-anchor="middle" font-family="'Inter', sans-serif" font-weight="800" font-size="12" fill="#F5F1E8">NAIROBI HEADQUARTERS</text>
+    <text x="0" y="58" text-anchor="middle" font-family="'Inter', sans-serif" font-weight="600" font-size="9.5" fill="#C9A24B">Trading Floor • High-Security Vaults</text>
+  </g>
+
+  <!-- Legend -->
+  <g transform="translate(40, 460)">
+    <rect width="250" height="60" rx="6" fill="#0E1217" stroke="#222834" stroke-width="1"/>
+    <circle cx="20" cy="22" r="5" fill="#E5C77A"/>
+    <text x="34" y="26" font-family="'Inter', sans-serif" font-size="10" fill="#F5F1E8">Global Headquarters &amp; Vaults</text>
+    <circle cx="20" cy="42" r="4" fill="#C9A24B"/>
+    <text x="34" y="46" font-family="'Inter', sans-serif" font-size="10" fill="#A8A396">Regional Sourcing &amp; Intake Branches</text>
+  </g>
+</svg>

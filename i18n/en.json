@@ -1,0 +1,99 @@
+{
+  "nav": {
+    "home": "Home",
+    "buyGold": "Buy Bullion",
+    "prices": "Price Centre",
+    "howItWorks": "How It Works",
+    "trustCentre": "Trust Centre",
+    "sourcing": "Responsible Sourcing",
+    "offices": "Offices",
+    "about": "About Us",
+    "learn": "Education",
+    "faq": "FAQ",
+    "contact": "Contact Desk",
+    "getQuote": "Get a Quote",
+    "indicativePrice": "Live Indicative Spot"
+  },
+  "hero": {
+    "badge": "Licensed Precious Metals House • Nairobi • DRC • South Sudan",
+    "title": "Institutional Gold Trading & Refined Bullion Reserves",
+    "subtitle": "Direct trading desk for verified gold bullion bars. Fully licensed, laboratory assayed, and legally documented across East and Central Africa.",
+    "ctaBuy": "Get a Written Quote",
+    "ctaExplore": "Explore Bullion Bars",
+    "trustStrip": {
+      "licensed": "Licensed Mineral Dealer",
+      "registered": "Incorporated in Kenya",
+      "assayed": "ISO 17025 Certified Assays",
+      "offices": "Offices in 3 Nations",
+      "armored": "Secured Armored Settlement"
+    }
+  },
+  "cta": {
+    "getQuote": "Get a Quote",
+    "speakToDealer": "Speak to a Trading Specialist",
+    "whatsappDirect": "WhatsApp Trading Desk",
+    "callDirect": "Call Direct Desk",
+    "viewDocuments": "Inspect Legal Licences",
+    "compare": "Compare Bars",
+    "calculate": "Calculate Estimated Value",
+    "filterAll": "All Categories",
+    "viewProduct": "View Specifications",
+    "downloadSpec": "Download Specs & Assay Sample"
+  },
+  "quoteModal": {
+    "title": "Request an Official Written Quote",
+    "subtitle": "Step 1 of 2: Bullion & Volume",
+    "step1": "1. Bullion & Volume",
+    "step2": "2. Contact Details",
+    "buyLabel": "I want to BUY Bullion Bars",
+    "productType": "Bullion Product or Form",
+    "quantityLabel": "Estimated Quantity",
+    "unitLabel": "Unit of Measure",
+    "destinationLabel": "Destination or Delivery Method",
+    "deliveryVault": "Secured Nairobi Vault Custody",
+    "deliveryArmored": "Direct Armored Freight (Air Cargo)",
+    "deliveryCollect": "In-Person Collection (Nairobi HQ)",
+    "fullName": "Full Legal Name",
+    "email": "Business / Private Email",
+    "phone": "Phone / WhatsApp Number",
+    "company": "Company Name (Optional)",
+    "notes": "Additional Requirements / Questions",
+    "nextStep": "Continue to Next Step",
+    "backStep": "Previous Step",
+    "submitQuote": "Submit Quote Request",
+    "submitting": "Transmitting to Trading Desk...",
+    "successTitle": "Quote Request Logged",
+    "successMsg": "A licensed account manager from our Nairobi trading floor will review your specifications and contact you with a formal, timestamped Proforma Quote within 2 business hours.",
+    "disclaimer": "Indicative estimates only. Official pricing is locked and issued via written invoice upon KYC completion and assay confirmation."
+  },
+  "calculator": {
+    "title": "Instant Bullion Valuation Calculator",
+    "subtitle": "Calculate fine gold content, estimated market value, and indicative trading desk premiums.",
+    "modeBuy": "Buying Bullion From Us",
+    "weight": "Weight",
+    "unit": "Unit",
+    "purity": "Purity Standard",
+    "currency": "Settlement Currency",
+    "fineGoldContent": "Pure Fine Gold Content",
+    "spotBaseline": "Spot Baseline Benchmark",
+    "premiumDiscount": "Fabrication / Assay Spread",
+    "estimatedTotal": "Estimated Value",
+    "pricePerGram": "Indicative Price Per Gram",
+    "disclaimer": "Calculated value is indicative. Final contract price is confirmed in a written proforma quote with laboratory assay verification."
+  },
+  "trust": {
+    "title": "Transparency First: Complete Verification",
+    "subtitle": "We believe confidence is built on inspectable evidence, not assertions. Review our state licenses, regulatory certificates, and certified assay reports.",
+    "inspect": "Inspect Document",
+    "verifyWithIssuer": "Verify with Issuing Authority",
+    "closeLightbox": "Close Viewer"
+  },
+  "footer": {
+    "tagline": "Calm, precise, and legally documented precious metals trading across East and Central Africa.",
+    "quickLinks": "Quick Links",
+    "legalCompliance": "Regulatory & Legal",
+    "regionalPresences": "Regional Presence",
+    "disclaimerTitle": "Market & Regulatory Risk Disclaimer",
+    "rights": "All rights reserved. Regulated precious metals trading entity."
+  }
+}

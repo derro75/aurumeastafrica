@@ -1,0 +1,99 @@
+{
+  "nav": {
+    "home": "Mwanzo",
+    "buyGold": "Nunua Dhahabu",
+    "prices": "Bei za Dhahabu",
+    "howItWorks": "Jinsi Inavyofanya Kazi",
+    "trustCentre": "Hati na Leseni",
+    "sourcing": "Uchimbaji wa Haki",
+    "offices": "Ofisi Zetu",
+    "about": "Kuhusu Sisi",
+    "learn": "Mafunzo ya Dhahabu",
+    "faq": "Maswali ya Mara kwa Mara",
+    "contact": "Wasiliana Nasi",
+    "getQuote": "Pata Makadirio ya Bei",
+    "indicativePrice": "Bei ya Moja kwa Moja"
+  },
+  "hero": {
+    "badge": "Muuza Dhahabu Mwenye Leseni Rasmi • Nairobi • DRC • Sudan Kusini",
+    "title": "Biashara ya Kitaasisi ya Dhahabu Safi na Madini ya Thamani",
+    "subtitle": "Kituo rasmi cha kuuza vipande vya dhahabu safi vilivyopimwa maabara na kuandikwa nyaraka za kisheria Afrika Mashariki na Kati.",
+    "ctaBuy": "Omba Nukuu Rasmi ya Bei",
+    "ctaExplore": "Tazama Vipande vya Dhahabu",
+    "trustStrip": {
+      "licensed": "Mfanyabiashara Mwenye Leseni",
+      "registered": "Kusajiliwa Nchini Kenya",
+      "assayed": "Upimaji wa Maabara ISO 17025",
+      "offices": "Ofisi Katika Nchi 3",
+      "armored": "Malipo na Usafirishaji Salama"
+    }
+  },
+  "cta": {
+    "getQuote": "Pata Makadirio",
+    "speakToDealer": "Ongea na Mtaalamu",
+    "whatsappDirect": "Mawasiliano ya WhatsApp",
+    "callDirect": "Piga Simu Moja kwa Moja",
+    "viewDocuments": "Kagua Leseni Zetu",
+    "compare": "Linganisha Vipande",
+    "calculate": "Kokotoa Thamani ya Dhahabu",
+    "filterAll": "Makundi Yote",
+    "viewProduct": "Vipimo Kamili",
+    "downloadSpec": "Pakua Nyaraka za Upimaji"
+  },
+  "quoteModal": {
+    "title": "Omba Nukuu Rasmi ya Bei kwa Maandishi",
+    "subtitle": "Hatua ya 1 ya 2: Bidhaa na Kiasi",
+    "step1": "1. Bidhaa na Kiasi",
+    "step2": "2. Mawasiliano",
+    "buyLabel": "Ninataka KUNUNUA Vipande vya Dhahabu",
+    "productType": "Aina ya Dhahabu",
+    "quantityLabel": "Kiasi Kinachokadiriwa",
+    "unitLabel": "Kipimo (Gramu / Kilo / Ounzi)",
+    "destinationLabel": "Mahali au Njia ya Kuchukua",
+    "deliveryVault": "Hifadhi ya Chumba Salama Nairobi",
+    "deliveryArmored": "Usafirishaji Salama wa Ndege",
+    "deliveryCollect": "Kuchukua Mwenyewe Ofisini Nairobi",
+    "fullName": "Jina Kamili la Kisheria",
+    "email": "Barua Pepe ya Biashara / Binafsi",
+    "phone": "Nambari ya Simu / WhatsApp",
+    "company": "Jina la Kampuni (Si Lazima)",
+    "notes": "Maelezo ya Ziada",
+    "nextStep": "Endelea Mbele",
+    "backStep": "Rudi Nyuma",
+    "submitQuote": "Tuma Ombi la Bei",
+    "submitting": "Inatuma kwa Dawati la Biashara...",
+    "successTitle": "Ombi Limepokewa Kikamilifu",
+    "successMsg": "Meneja wa akaunti mwenye leseni kutoka Nairobi atapitia mahitaji yako na kukupatia nukuu rasmi ya ankara (proforma invoice) ndani ya masaa 2 ya kazi.",
+    "disclaimer": "Makadirio haya ni ya mwongozo tu. Bei kamili inafungwa kwa maandishi baada ya uthibitisho wa utambulisho (KYC) na vipimo vya maabara."
+  },
+  "calculator": {
+    "title": "Kikokotoo cha Haraka cha Thamani ya Dhahabu",
+    "subtitle": "Hesabu uzito wa dhahabu halisi, makadirio ya thamani ya soko na viwango vya ada.",
+    "modeBuy": "Kununua Dhahabu",
+    "weight": "Uzito",
+    "unit": "Kipimo",
+    "purity": "Kiwango cha Usafi (Karat)",
+    "currency": "Sarafu ya Malipo",
+    "fineGoldContent": "Uzito Kamili wa Dhahabu Safi",
+    "spotBaseline": "Kiwango cha Bei ya Soko",
+    "premiumDiscount": "Gharama ya Usindikaji / Faida",
+    "estimatedTotal": "Thamani Inayokadiriwa",
+    "pricePerGram": "Bei kwa Kila Gramu",
+    "disclaimer": "Hesabu hii ni ya mwongozo. Bei rasmi itathibitishwa kwenye ankara ya maandishi baada ya upimaji wa maabara."
+  },
+  "trust": {
+    "title": "Ukweli na Uwazi: Ushahidi wa Hati Rasmi",
+    "subtitle": "Uaminifu unajengwa kwa ushahidi unaoweza kukaguliwa, si maneno matupu. Kagua leseni zetu za serikali, vyeti vya usajili na ripoti za upimaji wa maabara.",
+    "inspect": "Kagua Hati",
+    "verifyWithIssuer": "Thibitisha na Mamlaka Husika",
+    "closeLightbox": "Funga Dirisha"
+  },
+  "footer": {
+    "tagline": "Biashara ya dhahabu na madini ya thamani iliyo ya kisheria, tulivu na ya uhakika Afrika Mashariki na Kati.",
+    "quickLinks": "Viungo vya Haraka",
+    "legalCompliance": "Sheria na Kanuni",
+    "regionalPresences": "Ofisi za Kikanda",
+    "disclaimerTitle": "Tahadhari ya Soko na Bei",
+    "rights": "Haki zote zimehifadhiwa. Taasisi iliyoidhinishwa ya biashara ya dhahabu."
+  }
+}

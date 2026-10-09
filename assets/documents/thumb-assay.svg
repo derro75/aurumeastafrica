@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="100%" height="100%" fill="none">
+  <rect width="300" height="200" rx="8" fill="#14181F" stroke="#C9A24B" stroke-width="1"/>
+  <rect x="20" y="20" width="100" height="140" rx="4" fill="#FAF8F5" stroke="#E2D8C0" stroke-width="1"/>
+  <rect x="30" y="30" width="80" height="6" rx="2" fill="#047857"/>
+  <rect x="30" y="50" width="75" height="4" rx="2" fill="#CBD5E0"/>
+  <rect x="30" y="60" width="70" height="4" rx="2" fill="#CBD5E0"/>
+  <text x="70" y="105" text-anchor="middle" font-family="'Inter', sans-serif" font-weight="800" font-size="16" fill="#047857">999.9</text>
+
+  <text x="135" y="45" font-family="'Inter', sans-serif" font-weight="700" font-size="12" fill="#F5F1E8">Lab Assay Report</text>
+  <text x="135" y="65" font-family="'Inter', sans-serif" font-size="9" fill="#C9A24B">Fire Assay &amp; XRF</text>
+  <text x="135" y="85" font-family="'Inter', monospace" font-size="8.5" fill="#A8A396">ASSAY/2024/B-9982</text>
+  <rect x="135" y="110" width="85" height="22" rx="4" fill="#065F46" />
+  <text x="177" y="125" text-anchor="middle" font-family="'Inter', sans-serif" font-size="8.5" font-weight="600" fill="#34D399">999.9 Passed</text>
+</svg>

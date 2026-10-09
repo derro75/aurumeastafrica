@@ -1,0 +1,72 @@
+[
+  {
+    "id": "understanding-gold-purity-karats",
+    "slug": "understanding-gold-purity-karats",
+    "title": "Understanding Gold Purity: From Raw Doré to 999.9 Fine Gold",
+    "category": "Fundamentals",
+    "readTime": "5 min read",
+    "summary": "Demystifying 24K, 22K, 18K and metric millesimal fineness. Learn how pure gold content is calculated and certified.",
+    "content": "Gold purity is measured on two primary scales: Karats (traditional system where 24 karat represents pure gold) and millesimal fineness (the scientific standard used by LBMA refineries representing parts of gold per thousand). Investment-grade bullion is minted to 999.9 parts per thousand (commonly termed 'four nines fine'). In contrast, unrefined mining doré typically measures between 850 and 920 parts per thousand, containing trace silver, copper, and iron that must be separated during refining.",
+    "takeaways": [
+      "999.9 (24K) is the worldwide standard for investment bullion bars and bank vaults.",
+      "Doré gold is semi-pure alloy requiring fire assay to determine payable pure content.",
+      "Always inspect the assayer's hallmark and fineness stamp on physical bars."
+    ]
+  },
+  {
+    "id": "spot-price-vs-dealer-premiums",
+    "slug": "spot-price-vs-dealer-premiums",
+    "title": "Spot Price vs. Dealer Premium: How Bullion Pricing Works",
+    "category": "Pricing & Markets",
+    "readTime": "6 min read",
+    "summary": "Why physical bars cost slightly more than the paper spot price, and how minting, assaying, insurance, and logistics make up the premium.",
+    "content": "The 'spot price' of gold reflects wholesale contracts for 400-ounce bars settled electronically in London or New York. Transforming raw metal into a physical 100g or 1kg minted bar with tamper-proof security packaging incurs physical costs: refining, precision stamping, serialized assay packaging, high-security vaulting, and armed logistics. This modest spread over spot is the 'premium'. Larger bars (e.g. 1kg cast bars) carry lower percentage premiums than smaller fractional 1-ounce bars.",
+    "takeaways": [
+      "Spot is a benchmark wholesale reference; physical bars always carry a modest premium.",
+      "Cast bars generally have lower fabrication premiums than mirror-proof minted bars.",
+      "Beware dealers offering bullion substantially below spot—it is the #1 hallmark of mineral fraud."
+    ]
+  },
+  {
+    "id": "how-to-verify-physical-gold",
+    "slug": "how-to-verify-physical-gold",
+    "title": "How to Verify Physical Gold: Testing & Counterfeit Prevention",
+    "category": "Authenticity",
+    "readTime": "7 min read",
+    "summary": "A guide to modern metallurgical verification: X-Ray Fluorescence (XRF), ultrasound testing, specific gravity, and fire assay.",
+    "content": "Authenticating physical gold relies on physics and metallurgy. Because gold has a unique high density of 19.32 g/cm³, fake gold made of copper, brass, or lead fails simple hydrostatic specific gravity tests. Advanced testing involves: (1) Portable or benchtop XRF spectrometers for non-destructive elemental surface analysis; (2) Ultrasound acoustic velocity testing to detect tungsten cores inside thick bars; and (3) The historic gold standard: fire assay (cupellation), where a sample is melted with lead to separate noble gold from all other metals.",
+    "takeaways": [
+      "Non-destructive testing (XRF and ultrasound) protects sealed minted packaging.",
+      "Fire assay remains the legally binding reference for commercial settlement of doré lots.",
+      "Never accept gold without a certified, traceable laboratory assay report."
+    ]
+  },
+  {
+    "id": "allocated-storage-vs-personal-custody",
+    "slug": "allocated-storage-vs-personal-custody",
+    "title": "Vault Storage vs. Personal Custody: Protecting Your Precious Metals",
+    "category": "Security & Vaulting",
+    "readTime": "5 min read",
+    "summary": "Evaluating the trade-offs between secure bank/depository vault custody and personal safe storage.",
+    "content": "Physical gold investors must decide where to keep their assets. While personal safes offer immediate tactile access, they introduce substantial security risks and standard homeowner insurance policies rarely cover precious metals. Professional depository storage—specifically 'Allocated and Segregated Custody'—ensures specific serial-numbered bars remain 100% your legal property, guarded 24/7 in institutional high-security vaults and backed by comprehensive Lloyd's-underwritten insurance.",
+    "takeaways": [
+      "Allocated custody means specific serial-numbered bars are physically segregated in your name.",
+      "Avoid unallocated pool accounts where you are merely an unsecured general creditor.",
+      "Professional vault storage maintains liquid sell-back value without re-assay delays."
+    ]
+  },
+  {
+    "id": "east-africa-gold-glossary",
+    "slug": "east-africa-gold-glossary",
+    "title": "The East African Precious Metals Glossary: Terms Every Trader Must Know",
+    "category": "Glossary",
+    "readTime": "4 min read",
+    "summary": "Key industry terms: Doré, Bullion, Fine Content, Assay, LBMA, Comptoir, Waybill, and POCAMLA.",
+    "content": "• **Doré:** An unrefined alloy of gold and silver produced at a mine site, typically 85–92% pure before refinery separation.\n• **Bullion:** High-purity refined gold in the form of bars or ingots, assayed at 995.0 to 999.9 fineness.\n• **Assay:** Chemical or spectroscopic analysis determining the exact purity and composition of a metal.\n• **Comptoir:** A government-licensed mineral purchasing and export bureau in the DRC and Central Africa.\n• **POCAMLA:** Kenya's Proceeds of Crime and Anti-Money Laundering Act regulating financial transactions.\n• **Troy Ounce:** The international precious metals weight standard, equal to 31.1034768 metric grams.",
+    "takeaways": [
+      "Familiarity with regional terms prevents contractual misunderstandings.",
+      "Always clarify whether quoted weights refer to gross weight or fine pure weight.",
+      "Ensure all transaction contracts reference international standard metric definitions."
+    ]
+  }
+]

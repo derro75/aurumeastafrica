@@ -1,0 +1,99 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "buyGold": "Acheter des Lingots",
+    "prices": "Centre des Cours",
+    "howItWorks": "Comment ça Marche",
+    "trustCentre": "Centre de Confiance",
+    "sourcing": "Approvisionnement Responsable",
+    "offices": "Bureaux Régionaux",
+    "about": "À Propos",
+    "learn": "Éducation",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "getQuote": "Demander un Devis",
+    "indicativePrice": "Cours Spot Indicatif"
+  },
+  "hero": {
+    "badge": "Maison de Métaux Précieux Agréée • Nairobi • RDC • Soudan du Sud",
+    "title": "Négoce Institutionnel d'Or et Réserves de Lingots Raffinés",
+    "subtitle": "Comptoir direct pour lingots d'or certifiés, titrés en laboratoire et documentés légalement en Afrique de l'Est et centrale.",
+    "ctaBuy": "Demander un Devis Écrit",
+    "ctaExplore": "Explorer les Lingots",
+    "trustStrip": {
+      "licensed": "Négociant Agréé en Minerais",
+      "registered": "Société Enregistrée au Kenya",
+      "assayed": "Essais Certifiés ISO 17025",
+      "offices": "Bureaux dans 3 Pays",
+      "armored": "Règlement et Transport Sécurisés"
+    }
+  },
+  "cta": {
+    "getQuote": "Obtenir un Devis",
+    "speakToDealer": "Consulter un Spécialiste",
+    "whatsappDirect": "WhatsApp Comptoir",
+    "callDirect": "Appeler le Bureau",
+    "viewDocuments": "Consulter nos Licences",
+    "compare": "Comparer les Lingots",
+    "calculate": "Calculer la Valeur Estimée",
+    "filterAll": "Toutes Catégories",
+    "viewProduct": "Spécifications Complètes",
+    "downloadSpec": "Télécharger Fiche Technique"
+  },
+  "quoteModal": {
+    "title": "Demande de Devis Officiel Écrit",
+    "subtitle": "Étape 1 sur 2 : Lingot et Quantité",
+    "step1": "1. Lingot et Quantité",
+    "step2": "2. Coordonnées",
+    "buyLabel": "Je souhaite ACHETER des Lingots",
+    "productType": "Type de Produit / Lingot",
+    "quantityLabel": "Quantité Estimée",
+    "unitLabel": "Unité de Mesure",
+    "destinationLabel": "Destination ou Mode de Livraison",
+    "deliveryVault": "Garde en Chambre Forte (Nairobi)",
+    "deliveryArmored": "Fret Aérien Blindé Assuré",
+    "deliveryCollect": "Retrait en Main Propre (Siège Nairobi)",
+    "fullName": "Nom Légal Complet",
+    "email": "Adresse Email Professionnelle / Privée",
+    "phone": "Numéro de Téléphone / WhatsApp",
+    "company": "Nom de l'Entreprise (Optionnel)",
+    "notes": "Remarques Additionnelles",
+    "nextStep": "Continuer",
+    "backStep": "Retour",
+    "submitQuote": "Envoyer la Demande",
+    "submitting": "Transmission en cours...",
+    "successTitle": "Demande Enregistrée",
+    "successMsg": "Un gestionnaire agréé examinera vos spécifications et vous transmettra une facture proforma horodatée sous 2 heures ouvrables.",
+    "disclaimer": "Estimations indicatives. Le prix définitif est fixé par devis écrit après vérification KYC et analyse d'essai."
+  },
+  "calculator": {
+    "title": "Calculateur d'Évaluation de Bullion",
+    "subtitle": "Calculez la teneur en or pur, la valeur marchande estimée et les marges indicatives.",
+    "modeBuy": "Achat de Lingots",
+    "weight": "Poids",
+    "unit": "Unité",
+    "purity": "Titre / Pureté",
+    "currency": "Devise de Règlement",
+    "fineGoldContent": "Teneur en Or Pur",
+    "spotBaseline": "Référence Spot",
+    "premiumDiscount": "Marge de Fonte / Frais",
+    "estimatedTotal": "Valeur Estimée",
+    "pricePerGram": "Prix Indicatif au Gramme",
+    "disclaimer": "Calcul indicatif. Le prix officiel est confirmé par facture proforma suite à l'essai en laboratoire."
+  },
+  "trust": {
+    "title": "La Transparence d'Abord : Preuves Vérifiables",
+    "subtitle": "La confiance repose sur des preuves tangibles. Consultez nos agréments ministériels, certificats de conformité et rapports d'analyses métallurgiques.",
+    "inspect": "Examiner le Document",
+    "verifyWithIssuer": "Vérifier auprès de l'Autorité",
+    "closeLightbox": "Fermer la Visionneuse"
+  },
+  "footer": {
+    "tagline": "Négoce de métaux précieux rigoureux, légalement documenté et transparent en Afrique Centrale et de l'Est.",
+    "quickLinks": "Liens Rapides",
+    "legalCompliance": "Réglementation et Légalité",
+    "regionalPresences": "Bureaux Régionaux",
+    "disclaimerTitle": "Avertissement sur les Risques et Prix",
+    "rights": "Tous droits réservés. Établissement agréé de négoce de métaux précieux."
+  }
+}

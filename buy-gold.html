@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Buy Bullion Bars | Physical Gold Catalogue | Aurum East Africa</title>
+  <meta name="description" content="Explore our range of 999.9 investment gold bullion bars and commercial doré lots. Hand-poured cast bars, minted proof ingots with sealed assay cards.">
+  <link rel="canonical" href="https://aurumeastafrica.com/buy-gold.html">
+
+  <link rel="icon" type="image/svg+xml" href="assets/logo/aurum-mark.svg">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Luxury Loading Screen -->
+  <div id="luxuryPreloader" class="luxury-preloader" aria-live="polite" role="status">
+    <div class="preloader-progress-bar"></div>
+    <div class="preloader-content">
+      <div class="preloader-emblem">
+        <svg viewBox="0 0 100 100" fill="none">
+          <polygon points="50,14 74,27 82,50 74,73 50,86 26,73 18,50 26,27" stroke="#C9A24B" stroke-width="2" fill="#14181F"/>
+          <path d="M50,22 L72,35 L50,48 L28,35 Z" fill="#E3C77A"/>
+          <path d="M28,35 L50,48 L50,76 L28,63 Z" fill="#8F6E24"/>
+          <path d="M50,48 L72,35 L72,63 L50,76 Z" fill="#C9A24B"/>
+        </svg>
+      </div>
+      <div class="preloader-brand">AURUM EAST AFRICA</div>
+      <div class="preloader-subtext">PHYSICAL BULLION CATALOGUE</div>
+      <div class="preloader-status">
+        <span class="preloader-spinner"></span>
+        <span class="preloader-status-text">Loading Bullion Inventory...</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Top Bar Ticker -->
+  <aside class="top-bar">
+    <div class="container">
+      <div class="top-bar-ticker">
+        <span class="ticker-pulse" aria-hidden="true"></span>
+        <span class="ticker-label">Indicative Spot:</span>
+        <span class="ticker-value tabular-nums" id="topBarTickerValue">$2,742.50 / oz • $88.17 / g</span>
+      </div>
+      <div class="top-bar-meta">
+        <a href="tel:+254207900000"><span>Trading Floor:</span> <strong>+254 20 790 0000</strong></a>
+        <a href="trust-centre.html" class="tabular-nums" data-claim-source="kenya-mining-license">
+          Licence: <strong>ML/GD/2024/7821</strong>
+        </a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Sticky Header -->
+  <header class="site-header" role="banner">
+    <div class="container header-container">
+      <a href="index.html" class="site-brand" aria-label="Aurum East Africa Home">
+        <img src="assets/logo/aurum-logo.svg" alt="Aurum East Africa" width="280" height="52">
+      </a>
+
+      <nav class="primary-nav" aria-label="Primary Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="buy-gold.html" class="nav-link active">Buy Bullion</a>
+        <a href="prices.html" class="nav-link">Price Centre</a>
+        <a href="how-it-works.html" class="nav-link">How It Works</a>
+        <a href="trust-centre.html" class="nav-link">Trust Centre</a>
+        <div class="nav-item-dropdown">
+          <a href="#" class="nav-link">Company ▾</a>
+          <div class="dropdown-menu">
+            <a href="about.html" class="dropdown-link">About Us</a>
+            <a href="sourcing.html" class="dropdown-link">Responsible Sourcing</a>
+            <a href="offices.html" class="dropdown-link">Offices (KE, CD, SS)</a>
+            <a href="learn.html" class="dropdown-link">Education Hub</a>
+            <a href="faq.html" class="dropdown-link">FAQ</a>
+            <a href="contact.html" class="dropdown-link">Contact Desk</a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="header-actions">
+        <div class="lang-selector">
+          <button type="button" class="lang-btn" aria-haspopup="listbox" aria-expanded="false" aria-label="Select Language">
+            🌐 <span id="currentLangLabel">EN</span> ▾
+          </button>
+          <div class="lang-dropdown" role="listbox">
+            <button type="button" class="lang-option active" data-lang="en">English (EN)</button>
+            <button type="button" class="lang-option" data-lang="fr">Français (FR)</button>
+            <button type="button" class="lang-option" data-lang="sw">Kiswahili (SW)</button>
+          </div>
+        </div>
+
+        <button type="button" class="theme-toggle-btn" aria-label="Toggle Theme">
+          <span class="theme-icon">☀️</span>
+        </button>
+
+        <button type="button" class="btn btn-primary btn-sm trigger-quote-btn" data-intent="buy">
+          Get a Quote
+        </button>
+
+        <button type="button" class="menu-toggle-btn" id="menuToggleBtn" aria-label="Open Navigation Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div id="mobileDrawer" class="mobile-drawer" aria-hidden="true">
+    <div class="drawer-header">
+      <img src="assets/logo/aurum-logo.svg" alt="Aurum East Africa" height="38">
+      <button type="button" class="modal-close-btn" id="closeDrawerBtn" aria-label="Close menu">✕</button>
+    </div>
+    <nav class="drawer-nav">
+      <a href="index.html" class="drawer-link">Home <span>→</span></a>
+      <a href="buy-gold.html" class="drawer-link active">Buy Bullion <span>→</span></a>
+      <a href="prices.html" class="drawer-link">Price Centre <span>→</span></a>
+      <a href="how-it-works.html" class="drawer-link">How It Works <span>→</span></a>
+      <a href="trust-centre.html" class="drawer-link">Trust Centre <span>→</span></a>
+      <a href="sourcing.html" class="drawer-link">Responsible Sourcing <span>→</span></a>
+      <a href="offices.html" class="drawer-link">Offices <span>→</span></a>
+      <a href="about.html" class="drawer-link">About Us <span>→</span></a>
+      <a href="learn.html" class="drawer-link">Education <span>→</span></a>
+      <a href="faq.html" class="drawer-link">FAQ <span>→</span></a>
+      <a href="contact.html" class="drawer-link">Contact Desk <span>→</span></a>
+    </nav>
+  </div>
+
+  <!-- MAIN CATALOGUE BODY -->
+  <main id="main-content" class="section">
+    <div class="container">
+      <!-- Page Header -->
+      <div class="section-header" style="text-align: left; max-width: 100%; margin-bottom: var(--space-8);">
+        <div class="section-eyebrow">Physical Bullion Collection</div>
+        <h1 class="section-title">Investment Grade Bullion Bars</h1>
+        <p class="section-subtitle">
+          From 1 Troy Ounce minted ingots to 1,000g institutional kilobars. Assayed to 999.9 fineness, sealed with individual serial numbers, and backed by verifiable assay certificates.
+        </p>
+      </div>
+
+      <!-- Catalogue Toolbar: Filters and Sorter -->
+      <div class="catalogue-toolbar">
+        <div class="catalogue-filters" id="catalogueFilterContainer">
+          <!-- Dynamic Filter Chips -->
+        </div>
+
+        <div style="display: flex; align-items: center; gap: var(--space-2);">
+          <label for="catalogSortSelect" style="font-size: var(--text-xs); color: var(--color-text-muted); font-weight: 600;">Sort By:</label>
+          <select id="catalogSortSelect" class="calc-select" style="padding: var(--space-2) var(--space-3); font-size: var(--text-xs);">
+            <option value="default">Standard Order</option>
+            <option value="weight-desc">Weight (High to Low)</option>
+            <option value="weight-asc">Weight (Low to High)</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Product Grid Mount -->
+      <div class="catalogue-grid" id="catalogueGrid">
+        <!-- Rendered dynamically by catalogue.js -->
+      </div>
+    </div>
+  </main>
+
+  <!-- Sticky Comparison Drawer -->
+  <div id="compareDrawer" class="compare-drawer" aria-label="Bullion Comparison Bar">
+    <!-- Populated by catalogue.js -->
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="assets/logo/aurum-logo.svg" alt="Aurum East Africa" width="260" height="48">
+          <p>
+            Institutional precious metals trading house. Headquartered in Nairobi, Kenya, with specialized regional intake comptoirs in DRC and South Sudan.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4>Bullion Trading</h4>
+          <ul class="footer-links">
+            <li><a href="buy-gold.html">Bullion Catalogue</a></li>
+            <li><a href="prices.html">Live Price Centre</a></li>
+            <li><a href="how-it-works.html">Transaction Process</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Trust &amp; Governance</h4>
+          <ul class="footer-links">
+            <li><a href="trust-centre.html">Trust Centre (Licences)</a></li>
+            <li><a href="sourcing.html">Responsible Sourcing</a></li>
+            <li><a href="aml-kyc-policy.html">AML &amp; POCAMLA Policy</a></li>
+            <li><a href="privacy.html">Privacy Notice</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Regional Offices</h4>
+          <ul class="footer-links">
+            <li><a href="offices.html">Nairobi HQ (Riverside Drive)</a></li>
+            <li><a href="offices.html">DRC Comptoir (Goma)</a></li>
+            <li><a href="offices.html">Juba Branch (South Sudan)</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-disclaimer">
+        <strong>Precious Metals Market &amp; Indicative Pricing Disclaimer:</strong>
+        Spot prices and estimates displayed on this platform are indicative market benchmarks. Precious metal markets fluctuate continuously based on global commodities exchanges. Official transaction pricing is locked via written Proforma Invoice upon laboratory assay confirmation.
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2018–2026 Aurum East Africa Precious Metals Limited. All rights reserved.</div>
+        <div class="footer-bottom-links">
+          <a href="privacy.html">Privacy</a>
+          <a href="terms.html">Terms</a>
+          <a href="aml-kyc-policy.html">AML/KYC</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <aside class="mobile-sticky-bar" aria-label="Quick Mobile Actions">
+    <button type="button" class="btn btn-primary trigger-quote-btn" data-intent="buy">Get a Quote</button>
+    <a href="https://wa.me/254700000000" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">WhatsApp</a>
+  </aside>
+
+  <a href="https://wa.me/254700000000" target="_blank" rel="noopener noreferrer" class="floating-whatsapp" aria-label="WhatsApp Trading Desk">
+    <svg viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2"/></svg>
+  </a>
+
+  <script type="module" src="js/app.js"></script>
+  <script type="module">
+    import { CatalogueManager } from './js/catalogue.js';
+    document.addEventListener('DOMContentLoaded', () => {
+      const cat = new CatalogueManager('catalogueGrid', 'catalogueFilterContainer', 'compareDrawer');
+      const sortSelect = document.getElementById('catalogSortSelect');
+      sortSelect?.addEventListener('change', (e) => {
+        cat.activeSort = e.target.value;
+        cat.renderProducts();
+      });
+    });
+  </script>
+</body>
+</html>

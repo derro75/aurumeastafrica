@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700" width="100%" height="100%" fill="none">
+  <defs>
+    <radialGradient id="studioLighting100A" cx="50%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#191F26" />
+      <stop offset="100%" stop-color="#080A0D" />
+    </radialGradient>
+    <filter id="angleShadow100">
+      <feDropShadow dx="0" dy="24" stdDeviation="20" flood-color="#000000" flood-opacity="0.8"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="700" rx="16" fill="url(#studioLighting100A)"/>
+  <ellipse cx="300" cy="570" rx="180" ry="28" fill="#000000" opacity="0.8" />
+
+  <!-- Isometric Angle of Blister Card -->
+  <g transform="translate(130, 130) rotate(-6)" filter="url(#angleShadow100)">
+    <rect width="300" height="450" rx="14" fill="#14181F" stroke="#C9A24B" stroke-width="1.5"/>
+    <rect x="75" y="70" width="150" height="230" rx="8" fill="#D3A946" stroke="#FFE9A3" stroke-width="1"/>
+    <text x="150" y="140" text-anchor="middle" font-family="'Cormorant Garamond', serif" font-size="16" font-weight="700" fill="#4A340B">AURUM</text>
+    <text x="150" y="175" text-anchor="middle" font-family="'Inter', sans-serif" font-size="20" font-weight="800" fill="#4A340B">100g 999.9</text>
+    <text x="150" y="380" text-anchor="middle" font-family="'Inter', monospace" font-size="10" fill="#C9A24B">SEALED ASSAY CARD</text>
+  </g>
+</svg>

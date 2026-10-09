@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1100" width="100%" height="100%" fill="none">
+  <rect width="800" height="1100" fill="#FAF8F5" stroke="#C9A24B" stroke-width="3"/>
+  <rect x="25" y="25" width="750" height="1050" fill="none" stroke="#2D3748" stroke-width="1.5"/>
+  <g transform="translate(400, 90)">
+    <text x="0" y="25" text-anchor="middle" font-family="'Cormorant Garamond', serif" font-weight="700" font-size="20" fill="#1A202C">REPUBLIC OF KENYA</text>
+    <text x="0" y="50" text-anchor="middle" font-family="'Inter', sans-serif" font-weight="700" font-size="14" fill="#1A202C">CUSTOMS &amp; BORDER CONTROL DEPARTMENT / MINING CADASTRE</text>
+    <line x1="-300" y1="70" x2="300" y2="70" stroke="#C9A24B" stroke-width="1.5"/>
+    <text x="0" y="105" text-anchor="middle" font-family="'Cormorant Garamond', serif" font-weight="700" font-size="22" fill="#8F6E24">MINERAL EXPORT PERMIT &amp; CUSTOMS DECLARATION</text>
+    <text x="0" y="130" text-anchor="middle" font-family="'Inter', monospace" font-size="12" font-weight="700" fill="#2D3748">PERMIT NO: EXP/GOLD/JKIA/2024/1109</text>
+  </g>
+  <g transform="translate(100, 270)" font-family="'Inter', sans-serif" font-size="13" fill="#2D3748">
+    <text x="0" y="20">Exporter: <tspan font-weight="700">Aurum East Africa Precious Metals Limited</tspan></text>
+    <text x="0" y="45">Exit Port: Jomo Kenyatta International Airport (JKIA Cargo Terminal)</text>
+    <text x="0" y="70">Commodity: Refined Gold Bullion Bars (999.9 Fineness)</text>
+    <text x="0" y="95">Gross Weight: 50.00 Kilograms | Net Fine Weight: 49.995 Kilograms</text>
+    
+    <g transform="translate(0, 130)">
+      <rect width="600" height="120" fill="#F8FAFC" stroke="#E2E8F0" rx="6"/>
+      <text x="25" y="35" font-weight="700" font-size="12">DUTIES, ROYALTIES &amp; CLEARANCE RECORD:</text>
+      <text x="25" y="65" font-size="11" fill="#475569">Mineral Royalties (Government of Kenya): Fully Settled &amp; Receipted</text>
+      <text x="25" y="90" font-size="11" fill="#475569">Central Bank Form CD: Authorized &amp; Registered</text>
+    </g>
+
+    <g transform="translate(380, 360)">
+      <circle cx="80" cy="50" r="45" fill="#C9A24B" opacity="0.2" stroke="#8F6E24" stroke-width="1.5"/>
+      <text x="80" y="55" text-anchor="middle" font-size="10" font-weight="700" fill="#4A3408">JKIA CUSTOMS CLEARANCE</text>
+    </g>
+  </g>
+</svg>

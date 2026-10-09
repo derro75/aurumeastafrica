@@ -1,0 +1,197 @@
+[
+  {
+    "id": "gold-bar-1000g-9999",
+    "name": "1,000g (1 Kilogram) Cast Bullion Bar",
+    "category": "Cast Bars",
+    "weightGrams": 1000,
+    "weightDisplay": "1,000 g (1 kg)",
+    "weightOz": 32.1507,
+    "purity": "999.9",
+    "fineness": "24 Karat / 99.99% Fine Gold",
+    "dimensions": "116.5 mm × 51.5 mm × 9.5 mm",
+    "finish": "Classic Sand-Cast with Polished Hallmark",
+    "premiumPercent": 1.2,
+    "availability": "In Vault / Ready for Allocation",
+    "minimumOrder": "1 Bar",
+    "packaging": "Sealed Tamper-Evident Security Pouch with Serialized Certificate",
+    "images": [
+      "assets/images/products/bar-1kg-front.svg",
+      "assets/images/products/bar-1kg-angle.svg",
+      "assets/images/products/bar-1kg-assay.svg"
+    ],
+    "documents": ["ke-independent-assay-report", "ke-min-dealer-license"],
+    "description": "The definitive institutional gold reserve asset. Hand-poured with classic cast cooling ripples and struck with the Aurum East Africa hallmark, individual serial number, and verified fineness stamp.",
+    "specifications": {
+      "Fine Gold Content": "1,000.00 grams (32.1507 troy oz)",
+      "Assay Method": "Fire Assay / Spectrometry (ISO 17025)",
+      "Manufacturer / Refinery": "Aurum East Africa Accredited Partner Refineries",
+      "Serial Numbering": "Unique alphanumeric laser engraving",
+      "Chain of Custody": "Secured Armored Transit or Nairobi Vault Custody"
+    }
+  },
+  {
+    "id": "gold-bar-500g-9999",
+    "name": "500g Minted Investment Bar",
+    "category": "Minted Bars",
+    "weightGrams": 500,
+    "weightDisplay": "500 g",
+    "weightOz": 16.0754,
+    "purity": "999.9",
+    "fineness": "24 Karat / 99.99% Fine Gold",
+    "dimensions": "91.0 mm × 41.0 mm × 7.3 mm",
+    "finish": "Precision Minted Proof-Quality Surface",
+    "premiumPercent": 1.5,
+    "availability": "In Stock / Prompt Dispatch",
+    "minimumOrder": "1 Bar",
+    "packaging": "Sealed Certi-Card Blister with Holographic Seal & QR Verification",
+    "images": [
+      "assets/images/products/bar-500g-front.svg",
+      "assets/images/products/bar-500g-angle.svg"
+    ],
+    "documents": ["ke-independent-assay-report"],
+    "description": "A favored denomination for corporate wealth reserves and high-net-worth investors seeking an optimal balance of divisibility and low premium over spot.",
+    "specifications": {
+      "Fine Gold Content": "500.00 grams (16.0754 troy oz)",
+      "Assay Method": "X-Ray Fluorescence (XRF) + Fire Assay",
+      "Certifying Assayer": "Chief Metallurgist, Aurum East Africa",
+      "Serial Numbering": "Micro-engraved sequential serial",
+      "Packaging Dimensions": "85 mm × 54 mm (ISO standard card format)"
+    }
+  },
+  {
+    "id": "gold-bar-250g-9999",
+    "name": "250g Minted Investment Bar",
+    "category": "Minted Bars",
+    "weightGrams": 250,
+    "weightDisplay": "250 g",
+    "weightOz": 8.0377,
+    "purity": "999.9",
+    "fineness": "24 Karat / 99.99% Fine Gold",
+    "dimensions": "70.0 mm × 32.0 mm × 6.0 mm",
+    "finish": "Satin-Etched Minted Edge",
+    "premiumPercent": 1.8,
+    "availability": "In Stock",
+    "minimumOrder": "1 Bar",
+    "packaging": "Sealed Security Blister with Integrated Assay Signature",
+    "images": [
+      "assets/images/products/bar-250g-front.svg"
+    ],
+    "documents": ["ke-independent-assay-report"],
+    "description": "Combines substantial precious metal value with convenient portfolio liquidity. Fully accepted across international bullion trading desks.",
+    "specifications": {
+      "Fine Gold Content": "250.00 grams (8.0377 troy oz)",
+      "Assay Method": "XRF Multi-Point Spectrometry",
+      "Fineness Tolerance": "≥ 999.9 parts per thousand",
+      "Delivery Options": "Nairobi Collection / Direct Armored Air Freight"
+    }
+  },
+  {
+    "id": "gold-bar-100g-9999",
+    "name": "100g Minted Bullion Bar with Certi-Assay",
+    "category": "Minted Bars",
+    "weightGrams": 100,
+    "weightDisplay": "100 g",
+    "weightOz": 3.2151,
+    "purity": "999.9",
+    "fineness": "24 Karat / 99.99% Fine Gold",
+    "dimensions": "55.0 mm × 31.0 mm × 3.2 mm",
+    "finish": "Mirror Finish with Frosted Emblem",
+    "premiumPercent": 2.2,
+    "availability": "High Liquidity / In Stock",
+    "minimumOrder": "1 Bar",
+    "packaging": "Certi-Assay Sealed Card with Micro-Printed Security Border",
+    "images": [
+      "assets/images/products/bar-100g-front.svg",
+      "assets/images/products/bar-100g-angle.svg"
+    ],
+    "documents": ["ke-independent-assay-report"],
+    "description": "Our most popular entry point for private individuals building physical gold reserves. Sealed inside an individually numbered tamper-proof assay blister card.",
+    "specifications": {
+      "Fine Gold Content": "100.00 grams (3.2151 troy oz)",
+      "Assay Guarantee": "Signed by Sworn Assayer",
+      "Card Security": "UV-Fluorescent Ink, Anti-Counterfeit Micro-Text",
+      "Storage Suitability": "Allocated Vaulting or Safe Deposit Storage"
+    }
+  },
+  {
+    "id": "gold-bar-1oz-9999",
+    "name": "1 Troy Ounce (31.1035g) Minted Bar",
+    "category": "Minted Bars",
+    "weightGrams": 31.1035,
+    "weightDisplay": "1 Troy Ounce (31.1 g)",
+    "weightOz": 1.0000,
+    "purity": "999.9",
+    "fineness": "24 Karat / 99.99% Fine Gold",
+    "dimensions": "41.0 mm × 24.0 mm × 1.9 mm",
+    "finish": "High-Relief Struck Proof",
+    "premiumPercent": 2.6,
+    "availability": "Immediate Dispatch",
+    "minimumOrder": "2 Bars",
+    "packaging": "Tamper-Evident Credit Card Sized Sealed Blister",
+    "images": [
+      "assets/images/products/bar-1oz-front.svg"
+    ],
+    "documents": ["ke-independent-assay-report"],
+    "description": "The globally recognized universal standard of precious metals trading. 1 Troy Ounce of certified 999.9 fine gold, universally recognized and immediately convertible worldwide.",
+    "specifications": {
+      "Fine Gold Content": "31.1035 grams (1.0000 troy oz)",
+      "International Standard": "Conforms to LBMA & Comex Physical Specifications",
+      "Assay Verification": "Instant verification via QR code and serial log",
+      "Resale Guarantee": "Guaranteed buy-back at indicative trading desk rate"
+    }
+  },
+  {
+    "id": "gold-bar-1000g-995",
+    "name": "1,000g Standard 995.0 Investment Kilobar",
+    "category": "Cast Bars",
+    "weightGrams": 1000,
+    "weightDisplay": "1,000 g (995 Fineness)",
+    "weightOz": 32.1507,
+    "purity": "995.0",
+    "fineness": "Investment Bullion Grade (99.5% Gold)",
+    "dimensions": "115.0 mm × 50.0 mm × 10.0 mm",
+    "finish": "Industrial Cast",
+    "premiumPercent": 0.9,
+    "availability": "Institutional Reserve / Available on Order",
+    "minimumOrder": "3 Bars",
+    "packaging": "Wooden Security Cask with Wax Seal and Laboratory Certificate",
+    "images": [
+      "assets/images/products/bar-1kg-995.svg"
+    ],
+    "documents": ["ke-independent-assay-report", "ke-min-dealer-license"],
+    "description": "The standard physical wholesale trading bar for the Middle East, India, and East Africa bullion corridor. Priced at the tightest possible premium over spot.",
+    "specifications": {
+      "Fine Gold Content": "995.00 grams fine gold",
+      "Target Market": "Institutional Traders, Jewelry Manufacturers, Banks",
+      "Assay Basis": "Gross weight 1,000g; settlement based on fine content",
+      "Export Documents": "Full Customs Form CD and Ministry Export Permit"
+    }
+  },
+  {
+    "id": "gold-dore-commercial-lot",
+    "name": "Assayed Gold Doré (Commercial Wholesale Lots)",
+    "category": "Doré / Unrefined",
+    "weightGrams": 5000,
+    "weightDisplay": "5 kg – 50 kg Commercial Lots",
+    "weightOz": 160.75,
+    "purity": "dore_raw",
+    "fineness": "Typically 88% - 94% Gold Purity (Pending Assay)",
+    "dimensions": "Variable Cast Doré Bars",
+    "finish": "Raw Smelted Ingot",
+    "premiumPercent": -1.5,
+    "availability": "Sourced via Verified Partner Concessions",
+    "minimumOrder": "5 kg Minimum Contract",
+    "packaging": "High-Security Tamper-Sealed Mineral Transport Trays",
+    "images": [
+      "assets/images/products/bar-dore-lot.svg"
+    ],
+    "documents": ["ke-min-dealer-license", "drc-mines-authorization", "customs-export-sample"],
+    "description": "Commercial supply lots of responsibly aggregated unrefined gold doré from verified mining concessions in East and Central Africa. Available strictly to accredited corporate refiners and licensed comptoirs under full OECD traceability.",
+    "specifications": {
+      "Origin Documentation": "Mine origin certificate, transport waybill, royalty tax receipt",
+      "Testing Protocol": "On-site XRF preliminary assay followed by crucible fire assay",
+      "Settlement": "Bank wire settlement based on pure recovered gold",
+      "Compliance": "POCAMLA, CENAREF, and OECD Step 5 reporting verified"
+    }
+  }
+]

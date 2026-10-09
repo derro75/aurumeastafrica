@@ -1,0 +1,42 @@
+[
+  {
+    "category": "Buying Bullion",
+    "question": "How do I purchase physical gold from Aurum East Africa?",
+    "answer": "Purchasing gold involves a streamlined 4-step process: (1) Submit an inquiry via our 'Get a Quote' tool specifying product and quantity; (2) Complete mandatory identity/corporate KYC verification; (3) Receive an official Proforma Invoice with a locked price window; (4) Execute payment via approved banking channels, followed by allocated vault collection in Nairobi or insured armored air courier delivery."
+  },
+  {
+    "category": "Buying Bullion",
+    "question": "Are your prices fixed or do they change in real time?",
+    "answer": "Prices on our website are live indicative spot rates pegged to international bullion exchanges. When you receive a formal Proforma Invoice from our trading desk, the price is locked for an agreed window (typically 60 to 120 minutes) during banking hours, ensuring you know your exact payable total."
+  },
+  {
+    "category": "Buying Bullion",
+    "question": "What is the minimum purchase quantity?",
+    "answer": "For individual retail buyers, our entry denomination is 1 Troy Ounce (31.1035g) or 100g minted bars. For institutional wholesale clients, standard contracts start at 1,000 grams (1 Kilogram)."
+  },
+  {
+    "category": "KYC & Compliance",
+    "question": "Why do you require identity verification and source-of-funds documents?",
+    "answer": "As a licensed entity operating under the Proceeds of Crime and Anti-Money Laundering Act (POCAMLA) in Kenya and regional EAC/OECD frameworks, we maintain rigorous compliance standards. KYC protects both our clients and our company against illicit trade, fraud, and illegal financing."
+  },
+  {
+    "category": "KYC & Compliance",
+    "question": "How do you verify the authenticity and purity of the gold?",
+    "answer": "Every bar and lot undergoes rigorous metallurgical testing using calibrated X-Ray Fluorescence (XRF) spectrometry and classic fire assay (cupellation) in our certified partner laboratories. Each bar is issued with a serialized Assay Certificate stating exact fineness (up to 999.9 parts per thousand)."
+  },
+  {
+    "category": "Payment & Banking",
+    "question": "What payment methods do you accept?",
+    "answer": "To maintain strict anti-money laundering compliance, we do not accept cash over the counter. We accept: (1) Direct RTGS / Fedwire commercial bank transfers; (2) Irrevocable Documentary Letters of Credit (L/C) for institutional contracts; (3) Regulated commercial escrow facilities for large transactions."
+  },
+  {
+    "category": "Delivery & Vaulting",
+    "question": "How do I take possession of my gold?",
+    "answer": "You have two secure options: (1) In-Person Physical Collection at our secured private client salon in Nairobi; or (2) Fully Insured Armored Courier Delivery directly to your designated bank vault or international destination via global logistics partners (such as Brinks, Malca-Amit, or G4S)."
+  },
+  {
+    "category": "Taxes & Export",
+    "question": "Can you ship gold internationally outside of Kenya?",
+    "answer": "Yes. We coordinate full export clearance, including Ministry of Mining export permits, Central Bank CD documentation, customs clearance at Jomo Kenyatta International Airport (JKIA), and all necessary airway bills for delivery to Dubai, Zurich, London, or other major international financial centers."
+  }
+]

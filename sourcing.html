@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Responsible Sourcing &amp; Mineral Provenance | Aurum East Africa</title>
+  <meta name="description" content="Our responsible sourcing framework: OECD Due Diligence alignment, conflict-free mineral chain of custody, and certified ISO 17025 assay testing in East Africa.">
+  <link rel="canonical" href="https://aurumeastafrica.com/sourcing.html">
+
+  <link rel="icon" type="image/svg+xml" href="assets/logo/aurum-mark.svg">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Preloader -->
+  <div id="luxuryPreloader" class="luxury-preloader" aria-live="polite" role="status">
+    <div class="preloader-progress-bar"></div>
+    <div class="preloader-content">
+      <div class="preloader-emblem">
+        <svg viewBox="0 0 100 100" fill="none">
+          <polygon points="50,14 74,27 82,50 74,73 50,86 26,73 18,50 26,27" stroke="#C9A24B" stroke-width="2" fill="#14181F"/>
+          <path d="M50,22 L72,35 L50,48 L28,35 Z" fill="#E3C77A"/>
+          <path d="M28,35 L50,48 L50,76 L28,63 Z" fill="#8F6E24"/>
+          <path d="M50,48 L72,35 L72,63 L50,76 Z" fill="#C9A24B"/>
+        </svg>
+      </div>
+      <div class="preloader-brand">AURUM EAST AFRICA</div>
+      <div class="preloader-subtext">RESPONSIBLE SOURCING &amp; ASSAY</div>
+      <div class="preloader-status">
+        <span class="preloader-spinner"></span>
+        <span class="preloader-status-text">Verifying Provenance Standards...</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Top Bar -->
+  <aside class="top-bar">
+    <div class="container">
+      <div class="top-bar-ticker">
+        <span class="ticker-pulse" aria-hidden="true"></span>
+        <span class="ticker-label">Indicative Spot:</span>
+        <span class="ticker-value tabular-nums" id="topBarTickerValue">$2,742.50 / oz • $88.17 / g</span>
+      </div>
+      <div class="top-bar-meta">
+        <a href="tel:+254207900000"><span>Compliance:</span> <strong>+254 20 790 0000</strong></a>
+        <a href="trust-centre.html" class="tabular-nums">Licence: <strong>ML/GD/2024/7821</strong></a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Sticky Header -->
+  <header class="site-header" role="banner">
+    <div class="container header-container">
+      <a href="index.html" class="site-brand">
+        <img src="assets/logo/aurum-logo.svg" alt="Aurum East Africa" width="280" height="52">
+      </a>
+      <nav class="primary-nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="buy-gold.html" class="nav-link">Buy Bullion</a>
+        <a href="prices.html" class="nav-link">Price Centre</a>
+        <a href="how-it-works.html" class="nav-link">How It Works</a>
+        <a href="trust-centre.html" class="nav-link">Trust Centre</a>
+        <div class="nav-item-dropdown">
+          <a href="#" class="nav-link active">Company ▾</a>
+          <div class="dropdown-menu">
+            <a href="about.html" class="dropdown-link">About Us</a>
+            <a href="sourcing.html" class="dropdown-link active">Responsible Sourcing</a>
+            <a href="offices.html" class="dropdown-link">Offices</a>
+            <a href="learn.html" class="dropdown-link">Education Hub</a>
+            <a href="faq.html" class="dropdown-link">FAQ</a>
+            <a href="contact.html" class="dropdown-link">Contact Desk</a>
+          </div>
+        </div>
+      </nav>
+      <div class="header-actions">
+        <div class="lang-selector">
+          <button type="button" class="lang-btn">🌐 <span id="currentLangLabel">EN</span> ▾</button>
+          <div class="lang-dropdown">
+            <button type="button" class="lang-option active" data-lang="en">English (EN)</button>
+            <button type="button" class="lang-option" data-lang="fr">Français (FR)</button>
+            <button type="button" class="lang-option" data-lang="sw">Kiswahili (SW)</button>
+          </div>
+        </div>
+        <button type="button" class="theme-toggle-btn"><span class="theme-icon">☀️</span></button>
+        <button type="button" class="btn btn-primary btn-sm trigger-quote-btn" data-intent="buy">Get a Quote</button>
+        <button type="button" class="menu-toggle-btn" id="menuToggleBtn"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div id="mobileDrawer" class="mobile-drawer" aria-hidden="true">
+    <div class="drawer-header">
+      <img src="assets/logo/aurum-logo.svg" alt="Aurum East Africa" height="38">
+      <button type="button" class="modal-close-btn" id="closeDrawerBtn">✕</button>
+    </div>
+    <nav class="drawer-nav">
+      <a href="index.html" class="drawer-link">Home <span>→</span></a>
+      <a href="buy-gold.html" class="drawer-link">Buy Bullion <span>→</span></a>
+      <a href="prices.html" class="drawer-link">Price Centre <span>→</span></a>
+      <a href="how-it-works.html" class="drawer-link">How It Works <span>→</span></a>
+      <a href="trust-centre.html" class="drawer-link">Trust Centre <span>→</span></a>
+      <a href="sourcing.html" class="drawer-link active">Responsible Sourcing <span>→</span></a>
+      <a href="offices.html" class="drawer-link">Offices <span>→</span></a>
+      <a href="about.html" class="drawer-link">About Us <span>→</span></a>
+      <a href="learn.html" class="drawer-link">Education <span>→</span></a>
+      <a href="faq.html" class="drawer-link">FAQ <span>→</span></a>
+      <a href="contact.html" class="drawer-link">Contact Desk <span>→</span></a>
+    </nav>
+  </div>
+
+  <!-- MAIN SOURCING BODY -->
+  <main id="main-content" class="section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-eyebrow">Supply Chain Stewardship</div>
+        <h1 class="section-title">Responsible Sourcing &amp; Provenance</h1>
+        <p class="section-subtitle">
+          Integrity in the precious metals industry requires evidence, not buzzwords. We do not make unsubstantiated marketing claims. Our sourcing practices are systematically aligned with the OECD Due Diligence Guidance and statutory regional mining frameworks.
+        </p>
+      </div>
+
+      <!-- Laboratory Illustration Card -->
+      <div style="border-radius: var(--radius-xl); overflow: hidden; border: 1px solid var(--color-gold-border); margin-bottom: var(--space-12);">
+        <img src="assets/images/assay-laboratory.svg" alt="Certified assay cleanroom laboratory with XRF spectrometer" width="700" height="450" style="width: 100%; height: auto; display: block;">
+      </div>
+
+      <!-- The 5 Steps of OECD Due Diligence -->
+      <div class="card card-gold-accent" style="padding: var(--space-8); margin-bottom: var(--space-12);" data-claim-source="oecd-due-diligence-policy">
+        <div class="section-eyebrow">International Standard</div>
+        <h2 style="font-size: var(--text-2xl); margin-bottom: var(--space-4);">
+          OECD 5-Step Due Diligence Framework
+        </h2>
+        <p style="font-size: var(--text-sm); color: var(--color-text-secondary); line-height: 1.6; margin-bottom: var(--space-6);">
+          We conform our gold intake and trading operations to the <em>OECD Due Diligence Guidance for Responsible Supply Chains of Minerals from Conflict-Affected and High-Risk Areas</em>:
+        </p>
+
+        <div style="display: flex; flex-direction: column; gap: var(--space-4);">
+          <div style="display: flex; gap: var(--space-4);">
+            <div class="step-number" style="width: 36px; height: 36px; font-size: 15px;">1</div>
+            <div>
+              <strong style="color: var(--color-text-primary);">Establish Strong Management Systems:</strong>
+              <p style="font-size: var(--text-xs); color: var(--color-text-muted); margin: 2px 0 0;">
+                Clear corporate chain-of-custody tracking policy, dedicated compliance oversight committee, and mandatory KYC requirements for all counterparty mine concessions and aggregators.
+              </p>
+            </div>
+          </div>
+
+          <div style="display: flex; gap: var(--space-4);">
+            <div class="step-number" style="width: 36px; height: 36px; font-size: 15px;">2</div>
+            <div>
+              <strong style="color: var(--color-text-primary);">Identify &amp; Assess Supply Chain Risks:</strong>
+              <p style="font-size: var(--text-xs); color: var(--color-text-muted); margin: 2px 0 0;">
+                Rigorous mapping of mineral extraction sites, transport routes, and intermediate dealers to verify absence of armed conflict, forced labor, or illegal taxation checkpoints.
+              </p>
+            </div>
+          </div>
+
+          <div style="display: flex; gap: var(--space-4);">
+            <div class="step-number" style="width: 36px; height: 36px; font-size: 15px;">3</div>
+            <div>
+              <strong style="color: var(--color-text-primary);">Design &amp; Implement Risk Response Strategies:</strong>
+              <p style="font-size: var(--text-xs); color: var(--color-text-muted); margin: 2px 0 0;">
+                Immediate suspension of trade with any supplier or cooperative failing to substantiate mine origins, movement permits, or royalty compliance.
+              </p>
+            </div>
+          </div>
+
+          <div style="display: flex; gap: var(--space-4);">
+            <div class="step-number" style="width: 36px; height: 36px; font-size: 15px;">4</div>
+            <div>
+              <strong style="color: var(--color-text-primary);">Independent Third-Party Auditing:</strong>
+              <p style="font-size: var(--text-xs); color: var(--color-text-muted); margin: 2px 0 0;">
+                Periodic auditing of our bullion registers, customs exports, and laboratory records by qualified independent compliance reviewers and statutory mining inspectors.
+              </p>
+            </div>
+          </div>
+
+          <div style="display: flex; gap: var(--space-4);">
+            <div class="step-number" style="width: 36px; height: 36px; font-size: 15px;">5</div>
+            <div>
+              <strong style="color: var(--color-text-primary);">Public Reporting &amp; Transparency:</strong>
+              <p style="font-size: var(--text-xs); color: var(--color-text-muted); margin: 2px 0 0;">
+                Maintaining our public Trust Centre where verified state licenses, tax compliance certificates, and sample assay reports are accessible to all stakeholders.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Assay & Purity Verification Section -->
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: var(--space-6); margin-bottom: var(--space-12);">
+        <div class="card">
+          <h3 style="font-size: var(--text-xl); margin-bottom: var(--space-3);">XRF Spectrometry</h3>
+          <p style="font-size: var(--text-sm); color: var(--color-text-secondary); line-height: 1.6;">
+            Non-destructive elemental spectrometry analyzes the exact chemical makeup of finished minted bars and sealed blister packaging without scratching or damaging proof finishes.
+          </p>
+          <div style="font-size: var(--text-xs); color: var(--color-gold-light); font-weight: 600;">Tolerance: ±0.01% purity</div>
+        </div>
+
+        <div class="card">
+          <h3 style="font-size: var(--text-xl); margin-bottom: var(--space-3);">Fire Assay (Cupellation)</h3>
+          <p style="font-size: var(--text-sm); color: var(--color-text-secondary); line-height: 1.6;">
+            The historic gold standard for raw doré settlement. Lead cupellation in a 1,064°C furnace isolates pure noble gold from silver, copper, and iron for definitive financial settlement.
+          </p>
+          <div style="font-size: var(--text-xs); color: var(--color-gold-light); font-weight: 600;">ISO 11426 International Standard</div>
+        </div>
+
+        <div class="card">
+          <h3 style="font-size: var(--text-xl); margin-bottom: var(--space-3);">Ultrasound Density Testing</h3>
+          <p style="font-size: var(--text-xl); margin-bottom: var(--space-3);"></p>
+          <p style="font-size: var(--text-sm); color: var(--color-text-secondary); line-height: 1.6;">
+            Acoustic velocity scanners measure sound transmission speeds through thick cast bars (1kg), confirming the absence of drilled cavities, tungsten cores, or composite inserts.
+          </p>
+          <div style="font-size: var(--text-xs); color: var(--color-gold-light); font-weight: 600;">Core Integrity Guaranteed</div>
+        </div>
+      </div>
+
+      <!-- Honest Environmental & Social Statement -->
+      <div class="card" style="background: var(--color-bg-base); padding: var(--space-8); border-color: var(--color-gold-border);">
+        <div class="section-eyebrow">Plain Language Commitment</div>
+        <h3 style="font-size: var(--text-xl); margin-bottom: var(--space-3);">Our Honest Environmental &amp; Social Policy</h3>
+        <p style="font-size: var(--text-sm); color: var(--color-text-secondary); line-height: 1.6; margin-bottom: 0;">
+          We reject deceptive buzzwords such as "100% green gold" or "zero-impact bullion". Physical mining inherently impacts the environment. Instead, our mandate is rigorous harm minimization: we refuse minerals extracted using child labor, support artisanal cooperatives transitioning away from mercury via retort reticulation, and ensure full remittance of statutory local mining royalties that support regional communities in Kenya, DRC, and South Sudan.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="assets/logo/aurum-logo.svg" alt="Aurum East Africa" width="260" height="48">
+          <p>
+            Institutional precious metals trading house. Headquartered in Nairobi, Kenya, with specialized regional intake comptoirs in DRC and South Sudan.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4>Bullion Trading</h4>
+          <ul class="footer-links">
+            <li><a href="buy-gold.html">Bullion Catalogue</a></li>
+            <li><a href="prices.html">Live Price Centre</a></li>
+            <li><a href="how-it-works.html">Transaction Process</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Trust &amp; Governance</h4>
+          <ul class="footer-links">
+            <li><a href="trust-centre.html">Trust Centre (Licences)</a></li>
+            <li><a href="sourcing.html">Responsible Sourcing</a></li>
+            <li><a href="aml-kyc-policy.html">AML &amp; POCAMLA Policy</a></li>
+            <li><a href="privacy.html">Privacy Notice</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Regional Offices</h4>
+          <ul class="footer-links">
+            <li><a href="offices.html">Nairobi HQ (Riverside Drive)</a></li>
+            <li><a href="offices.html">DRC Comptoir (Goma)</a></li>
+            <li><a href="offices.html">Juba Branch (South Sudan)</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>© 2018–2026 Aurum East Africa Precious Metals Limited. All rights reserved.</div>
+        <div class="footer-bottom-links">
+          <a href="privacy.html">Privacy</a>
+          <a href="terms.html">Terms</a>
+          <a href="aml-kyc-policy.html">AML/KYC</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <aside class="mobile-sticky-bar" aria-label="Quick Mobile Actions">
+    <button type="button" class="btn btn-primary trigger-quote-btn" data-intent="buy">Get a Quote</button>
+    <a href="https://wa.me/254700000000" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">WhatsApp</a>
+  </aside>
+
+  <a href="https://wa.me/254700000000" target="_blank" rel="noopener noreferrer" class="floating-whatsapp" aria-label="WhatsApp Trading Desk">
+    <svg viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2"/></svg>
+  </a>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

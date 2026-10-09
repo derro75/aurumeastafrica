@@ -1,0 +1,86 @@
+[
+  {
+    "id": "nairobi-hq",
+    "name": "Nairobi Headquarters",
+    "country": "Kenya",
+    "countryCode": "KE",
+    "role": "Global Headquarters & Corporate Trading Floor",
+    "address": "Riverside Green Offices, 4th Floor, Riverside Drive",
+    "city": "Nairobi",
+    "postal": "P.O. Box 45890-00100",
+    "telephone": "+254 20 790 0000",
+    "whatsapp": "+254 700 000 000",
+    "whatsappRaw": "254700000000",
+    "email": "nairobi@aurumeastafrica.com",
+    "hours": "Monday – Friday: 08:30 – 17:30 EAT",
+    "weekend": "Saturday: 09:30 – 13:00 (Private Vault Appointments Only)",
+    "securityProtocol": "Strict biometric and pre-cleared guest registration. Armed security perimeter, secure private appraisal salons, and direct armored bullion vehicle bay.",
+    "licensesHeld": [
+      "Mineral Dealer's Trading License (Class A) — Republic of Kenya",
+      "KRA Tax Compliance Certificate & Customs Registered Exporter",
+      "Business Registration Service (BRS) Certificate of Incorporation"
+    ],
+    "facilities": [
+      "Certified Precious Metals Assaying Suite (XRF & Specific Gravity)",
+      "Institutional Armored Vault Custody",
+      "Private Investor Client Lounges",
+      "Direct Armored Airport Escort to JKIA Cargo Terminal"
+    ]
+  },
+  {
+    "id": "drc-branch",
+    "name": "DRC Regional Office",
+    "country": "Democratic Republic of Congo",
+    "countryCode": "CD",
+    "role": "Certified Assaying Comptoir",
+    "address": "Avenue du Boulevard 14, Commune de Goma",
+    "city": "Goma & Kinshasa Liaison",
+    "postal": "B.P. 892 Goma, Nord-Kivu",
+    "telephone": "+243 81 000 0000",
+    "whatsapp": "+243 81 000 0000",
+    "whatsappRaw": "243810000000",
+    "email": "drc@aurumeastafrica.com",
+    "hours": "Monday – Friday: 09:00 – 17:00 CAT",
+    "weekend": "Closed Weekends",
+    "securityProtocol": "Secured commercial perimeter with electronic pass validation. Visitors must present valid identification before entry.",
+    "licensesHeld": [
+      "Agrément de Comptoir d'Achat d'Or — Ministère des Mines, RDC",
+      "Registre de Commerce et du Crédit Mobilier (RCCM) Goma/Kinshasa",
+      "Identification Nationale & Numéro d'Impôt Réglementaire"
+    ],
+    "facilities": [
+      "High-precision XRF Spectrometer Laboratory",
+      "Crucible Smelting & Homogenization Station",
+      "Ministry Cadastre Verification Terminal",
+      "Secure Air Transit Logistics Coordination"
+    ]
+  },
+  {
+    "id": "juba-branch",
+    "name": "South Sudan Office",
+    "country": "South Sudan",
+    "countryCode": "SS",
+    "role": "Regional Trading Desk & Client Reception",
+    "address": "Ministries Road, Juba Center Commercial Tower, 2nd Floor",
+    "city": "Juba",
+    "postal": "Central Equatoria State, Juba",
+    "telephone": "+211 92 000 0000",
+    "whatsapp": "+211 92 000 0000",
+    "whatsappRaw": "211920000000",
+    "email": "juba@aurumeastafrica.com",
+    "hours": "Monday – Friday: 08:30 – 16:30 CAT",
+    "weekend": "Saturday: By appointment",
+    "securityProtocol": "Government-licensed secure commercial building. Valid passport or national identity verification mandatory at security gate.",
+    "licensesHeld": [
+      "Mineral Dealer Registration Certificate — Ministry of Mining, Juba",
+      "Ministry of Justice Commercial Registration",
+      "South Sudan Customs Accredited Clearing Registration"
+    ],
+    "facilities": [
+      "Physical Inspection & Certified Electronic Balance Suites",
+      "Escrow & Commercial Banking Liaison Desk",
+      "Transit Custody Safe Deposit Lockers",
+      "Direct Customs Liaison for Export Clearance"
+    ]
+  }
+]

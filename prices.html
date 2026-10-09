@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Live Gold Price Centre | Spot Rates &amp; Spread Transparency | Aurum East Africa</title>
+  <meta name="description" content="Real-time indicative gold spot prices, interactive charts (1D, 1W, 1M, 1Y), bullion purchase pricing, and multi-currency valuation in USD, KES, and EUR.">
+  <link rel="canonical" href="https://aurumeastafrica.com/prices.html">
+
+  <link rel="icon" type="image/svg+xml" href="assets/logo/aurum-mark.svg">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Preloader -->
+  <div id="luxuryPreloader" class="luxury-preloader" aria-live="polite" role="status">
+    <div class="preloader-progress-bar"></div>
+    <div class="preloader-content">
+      <div class="preloader-emblem">
+        <svg viewBox="0 0 100 100" fill="none">
+          <polygon points="50,14 74,27 82,50 74,73 50,86 26,73 18,50 26,27" stroke="#C9A24B" stroke-width="2" fill="#14181F"/>
+          <path d="M50,22 L72,35 L50,48 L28,35 Z" fill="#E3C77A"/>
+          <path d="M28,35 L50,48 L50,76 L28,63 Z" fill="#8F6E24"/>
+          <path d="M50,48 L72,35 L72,63 L50,76 Z" fill="#C9A24B"/>
+        </svg>
+      </div>
+      <div class="preloader-brand">AURUM EAST AFRICA</div>
+      <div class="preloader-subtext">LIVE GOLD PRICE CENTRE</div>
+      <div class="preloader-status">
+        <span class="preloader-spinner"></span>
+        <span class="preloader-status-text">Fetching Live Benchmark Feed...</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Top Bar -->
+  <aside class="top-bar">
+    <div class="container">
+      <div class="top-bar-ticker">
+        <span class="ticker-pulse" aria-hidden="true"></span>
+        <span class="ticker-label">Indicative Spot:</span>
+        <span class="ticker-value tabular-nums" id="topBarTickerValue">$2,742.50 / oz • $88.17 / g</span>
+      </div>
+      <div class="top-bar-meta">
+        <a href="tel:+254207900000"><span>Desk:</span> <strong>+254 20 790 0000</strong></a>
+        <a href="trust-centre.html" class="tabular-nums">Licence: <strong>ML/GD/2024/7821</strong></a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Sticky Header -->
+  <header class="site-header" role="banner">
+    <div class="container header-container">
+      <a href="index.html" class="site-brand">
+        <img src="assets/logo/aurum-logo.svg" alt="Aurum East Africa" width="280" height="52">
+      </a>
+
+      <nav class="primary-nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="buy-gold.html" class="nav-link">Buy Bullion</a>
+        <a href="prices.html" class="nav-link active">Price Centre</a>
+        <a href="how-it-works.html" class="nav-link">How It Works</a>
+        <a href="trust-centre.html" class="nav-link">Trust Centre</a>
+        <div class="nav-item-dropdown">
+          <a href="#" class="nav-link">Company ▾</a>
+          <div class="dropdown-menu">
+            <a href="about.html" class="dropdown-link">About Us</a>
+            <a href="sourcing.html" class="dropdown-link">Responsible Sourcing</a>
+            <a href="offices.html" class="dropdown-link">Offices</a>
+            <a href="learn.html" class="dropdown-link">Education Hub</a>
+            <a href="faq.html" class="dropdown-link">FAQ</a>
+            <a href="contact.html" class="dropdown-link">Contact Desk</a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="header-actions">
+        <div class="lang-selector">
+          <button type="button" class="lang-btn" aria-haspopup="listbox" aria-expanded="false">
+            🌐 <span id="currentLangLabel">EN</span> ▾
+          </button>
+          <div class="lang-dropdown" role="listbox">
+            <button type="button" class="lang-option active" data-lang="en">English (EN)</button>
+            <button type="button" class="lang-option" data-lang="fr">Français (FR)</button>
+            <button type="button" class="lang-option" data-lang="sw">Kiswahili (SW)</button>
+          </div>
+        </div>
+        <button type="button" class="theme-toggle-btn" aria-label="Toggle Theme">
+          <span class="theme-icon">☀️</span>
+        </button>
+        <button type="button" class="btn btn-primary btn-sm trigger-quote-btn" data-intent="buy">
+          Get a Quote
+        </button>
+        <button type="button" class="menu-toggle-btn" id="menuToggleBtn" aria-label="Open Navigation Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div id="mobileDrawer" class="mobile-drawer" aria-hidden="true">
+    <div class="drawer-header">
+      <img src="assets/logo/aurum-logo.svg" alt="Aurum East Africa" height="38">
+      <button type="button" class="modal-close-btn" id="closeDrawerBtn">✕</button>
+    </div>
+    <nav class="drawer-nav">
+      <a href="index.html" class="drawer-link">Home <span>→</span></a>
+      <a href="buy-gold.html" class="drawer-link">Buy Bullion <span>→</span></a>
+      <a href="prices.html" class="drawer-link active">Price Centre <span>→</span></a>
+      <a href="how-it-works.html" class="drawer-link">How It Works <span>→</span></a>
+      <a href="trust-centre.html" class="drawer-link">Trust Centre <span>→</span></a>
+      <a href="sourcing.html" class="drawer-link">Responsible Sourcing <span>→</span></a>
+      <a href="offices.html" class="drawer-link">Offices <span>→</span></a>
+      <a href="about.html" class="drawer-link">About Us <span>→</span></a>
+      <a href="learn.html" class="drawer-link">Education <span>→</span></a>
+      <a href="faq.html" class="drawer-link">FAQ <span>→</span></a>
+      <a href="contact.html" class="drawer-link">Contact Desk <span>→</span></a>
+    </nav>
+  </div>
+
+  <!-- MAIN PRICE CENTRE CONTENT -->
+  <main id="main-content" class="section">
+    <div class="container">
+      <!-- Section Header -->
+      <div class="section-header" style="text-align: left; max-width: 100%; margin-bottom: var(--space-8);">
+        <div class="section-eyebrow">Financial Transparency</div>
+        <h1 class="section-title">Gold Price Centre &amp; Spread Transparency</h1>
+        <p class="section-subtitle">
+          Live indicative spot rates pegged to the London Bullion Market Association (LBMA) benchmark. View bullion purchase prices across currencies.
+        </p>
+      </div>
+
+      <!-- Live Dashboard & Chart Grid -->
+      <div class="price-centre-grid">
+        <!-- Main Canvas Chart Card -->
+        <div class="chart-card">
+          <div class="chart-header">
+            <div class="chart-title-wrap">
+              <span class="badge badge-gold" style="margin-bottom: var(--space-1);">Spot Benchmark (USD/oz)</span>
+              <h3 class="tabular-nums" id="chartHeaderSpotVal" style="color: #FFF0C2; font-size: var(--text-3xl);">$2,742.50</h3>
+              <div style="font-size: var(--text-xs); color: var(--color-text-muted);" id="chartHeaderTimestamp">
+                Updated Live EAT • London Bullion Benchmark
+              </div>
+            </div>
+
+            <!-- Timeframe Selector -->
+            <div class="chart-timeframe-btns" role="tablist">
+              <button type="button" class="timeframe-btn active" data-tf="1D">1D</button>
+              <button type="button" class="timeframe-btn" data-tf="1W">1W</button>
+              <button type="button" class="timeframe-btn" data-tf="1M">1M</button>
+              <button type="button" class="timeframe-btn" data-tf="1Y">1Y</button>
+            </div>
+          </div>
+
+          <!-- Canvas Interactive Chart Mount -->
+          <div class="chart-canvas-container">
+            <canvas id="priceChart" role="img" aria-label="Interactive Gold Price Trend Chart"></canvas>
+          </div>
+
+          <!-- Accessible Screen Reader & Fallback Table -->
+          <div id="accessibleChartTableContainer"></div>
+        </div>
+
+        <!-- Bullion Sale Price Summary Card -->
+        <div class="card card-gold-accent" style="display: flex; flex-direction: column; justify-content: space-between;">
+          <div>
+            <div class="section-eyebrow" style="margin-bottom: var(--space-2);">Trading Desk Rates</div>
+            <h3 style="font-size: var(--text-2xl); margin-bottom: var(--space-4);">Bullion Sale Pricing</h3>
+
+            <!-- Currency Selector for Price Centre -->
+            <div class="form-group">
+              <label class="form-label" for="priceCentreCurrencySelect">Display Currency</label>
+              <select id="priceCentreCurrencySelect" class="calc-select" style="width: 100%;">
+                <option value="USD">USD ($) — United States Dollar</option>
+                <option value="KES">KES (KSh) — Kenyan Shilling</option>
+                <option value="EUR">EUR (€) — Euro</option>
+                <option value="UGX">UGX (USh) — Ugandan Shilling</option>
+                <option value="CDF">CDF (FC) — Congolese Franc</option>
+              </select>
+            </div>
+
+            <!-- Rates Breakdown -->
+            <div class="calc-result-row">
+              <span class="calc-result-label">Spot Reference (oz):</span>
+              <span class="calc-result-value tabular-nums" id="spreadSpotOz">$2,742.50</span>
+            </div>
+            <div class="calc-result-row">
+              <span class="calc-result-label">Spot Reference (gram):</span>
+              <span class="calc-result-value tabular-nums" id="spreadSpotGram">$88.17</span>
+            </div>
+            <div class="calc-result-row" style="background: rgba(34, 197, 94, 0.05); padding-inline: var(--space-2); border-radius: 4px;">
+              <span class="calc-result-label" style="color: var(--color-text-primary);">We Sell Bullion (Ask):</span>
+              <span class="calc-result-value tabular-nums" style="color: var(--color-gold-light); font-weight: 700;" id="spreadBuyRate">$89.76 / g</span>
+            </div>
+            <div class="calc-result-row">
+              <span class="calc-result-label">Indicative Retail Premium:</span>
+              <span class="calc-result-value tabular-nums" style="color: var(--color-text-muted);">1.8%</span>
+            </div>
+          </div>
+
+          <div style="margin-top: var(--space-6);">
+            <button type="button" class="btn btn-primary btn-sm trigger-quote-btn" data-intent="buy" style="width: 100%; margin-bottom: var(--space-2);">
+              Lock In Purchase Quote
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Full Spread Matrix Table across Weights -->
+      <div class="spread-table-container">
+        <table class="spread-table" aria-label="Precious Metals Pricing and Weight Equivalents">
+          <thead>
+            <tr>
+              <th scope="col">Unit / Denomination</th>
+              <th scope="col">Weight (Grams)</th>
+              <th scope="col">Indicative Spot</th>
+              <th scope="col">Aurum Sells (+1.8%)</th>
+              <th scope="col">Execution Action</th>
+            </tr>
+          </thead>
+          <tbody id="matrixTableBody">
+            <!-- Populated dynamically -->
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Integrated Calculator Section -->
+      <section style="margin-top: var(--space-16);">
+        <div class="section-header">
+          <div class="section-eyebrow">Interactive Estimator</div>
+          <h2 class="section-title">Custom Bullion &amp; Doré Calculator</h2>
+          <p class="section-subtitle">
+            Calculate instant fine gold content and valuations across karats and weight metrics.
+          </p>
+        </div>
+        <div id="pricesPageCalcContainer"></div>
+      </section>
+
+      <!-- Prominent Pricing Risk Disclaimer -->
+      <div class="footer-disclaimer" style="margin-top: var(--space-12);">
+        <strong>Market &amp; Indicative Pricing Disclaimer:</strong>
+        Spot prices and spread indicators displayed above are indicative market benchmarks. Precious metals fluctuate constantly based on international commodities exchanges. Final contract pricing, gross weight, fine content, minting premiums, and delivery fees are strictly confirmed via a written, timestamped Proforma Invoice issued by our commercial trading desk following laboratory assay.
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="assets/logo/aurum-logo.svg" alt="Aurum East Africa" width="260" height="48">
+          <p>
+            Institutional precious metals trading house. Headquartered in Nairobi, Kenya, with specialized regional intake comptoirs in DRC and South Sudan.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4>Bullion Trading</h4>
+          <ul class="footer-links">
+            <li><a href="buy-gold.html">Bullion Catalogue</a></li>
+            <li><a href="prices.html">Live Price Centre</a></li>
+            <li><a href="how-it-works.html">Transaction Process</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Trust &amp; Governance</h4>
+          <ul class="footer-links">
+            <li><a href="trust-centre.html">Trust Centre (Licences)</a></li>
+            <li><a href="sourcing.html">Responsible Sourcing</a></li>
+            <li><a href="aml-kyc-policy.html">AML &amp; POCAMLA Policy</a></li>
+            <li><a href="privacy.html">Privacy Notice</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Regional Offices</h4>
+          <ul class="footer-links">
+            <li><a href="offices.html">Nairobi HQ (Riverside Drive)</a></li>
+            <li><a href="offices.html">DRC Comptoir (Goma)</a></li>
+            <li><a href="offices.html">Juba Branch (South Sudan)</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>© 2018–2026 Aurum East Africa Precious Metals Limited. All rights reserved.</div>
+        <div class="footer-bottom-links">
+          <a href="privacy.html">Privacy</a>
+          <a href="terms.html">Terms</a>
+          <a href="aml-kyc-policy.html">AML/KYC</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <aside class="mobile-sticky-bar" aria-label="Quick Mobile Actions">
+    <button type="button" class="btn btn-primary trigger-quote-btn" data-intent="buy">Get a Quote</button>
+    <a href="https://wa.me/254700000000" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">WhatsApp</a>
+  </aside>
+
+  <a href="https://wa.me/254700000000" target="_blank" rel="noopener noreferrer" class="floating-whatsapp" aria-label="WhatsApp Trading Desk">
+    <svg viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2"/></svg>
+  </a>
+
+  <script type="module" src="js/app.js"></script>
+  <script type="module">
+    import { priceService } from './js/priceService.js';
+    import { GoldPriceChart } from './js/chart.js';
+    import { GoldCalculator } from './js/calculator.js';
+
+    document.addEventListener('DOMContentLoaded', () => {
+      // 1. Initialize Chart
+      const chart = new GoldPriceChart('priceChart', 'accessibleChartTableContainer');
+      document.querySelectorAll('.timeframe-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('.timeframe-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          chart.setTimeframe(btn.dataset.tf);
+        });
+      });
+
+      // 2. Initialize Calculator
+      new GoldCalculator('pricesPageCalcContainer');
+
+      // 3. Currency Selector Handler
+      const currSelect = document.getElementById('priceCentreCurrencySelect');
+      currSelect?.addEventListener('change', (e) => {
+        priceService.setCurrency(e.target.value);
+      });
+
+      // 4. Update Spread Card & Matrix Table on ticks
+      priceService.subscribe((snapshot) => {
+        const spotOz = document.getElementById('chartHeaderSpotVal');
+        const ts = document.getElementById('chartHeaderTimestamp');
+        const spOz = document.getElementById('spreadSpotOz');
+        const spGram = document.getElementById('spreadSpotGram');
+        const spBuy = document.getElementById('spreadBuyRate');
+
+        if (spotOz) spotOz.textContent = priceService.formatAmount(snapshot.spotPerOz);
+        if (ts) ts.textContent = `Updated ${snapshot.formattedTime} EAT • London Bullion Benchmark`;
+        if (spOz) spOz.textContent = priceService.formatAmount(snapshot.spotPerOz);
+        if (spGram) spGram.textContent = priceService.formatAmount(snapshot.spotPerGram);
+        if (spBuy) spBuy.textContent = `${priceService.formatAmount(snapshot.buyPerGram)} / g`;
+
+        // Update Matrix Table
+        const matrixBody = document.getElementById('matrixTableBody');
+        if (matrixBody) {
+          const rows = [
+            { name: "1 Gram Bar", g: 1 },
+            { name: "1 Troy Ounce", g: 31.1035 },
+            { name: "100 Gram Bar", g: 100 },
+            { name: "250 Gram Bar", g: 250 },
+            { name: "500 Gram Bar", g: 500 },
+            { name: "1,000 Gram (1 kg) Bar", g: 1000 },
+            { name: "5 Kilogram Commercial Lot", g: 5000 }
+          ];
+
+          matrixBody.innerHTML = rows.map(r => {
+            const spotVal = snapshot.spotPerGram * r.g;
+            const buyVal = snapshot.buyPerGram * r.g;
+            return `
+              <tr>
+                <td><strong>${r.name}</strong></td>
+                <td class="tabular-nums">${r.g.toLocaleString()} g</td>
+                <td class="tabular-nums">${priceService.formatAmount(spotVal)}</td>
+                <td class="tabular-nums" style="color: var(--color-gold-light); font-weight: 700;">${priceService.formatAmount(buyVal)}</td>
+                <td>
+                  <button type="button" class="btn btn-secondary btn-sm trigger-quote-btn" data-product="${r.name}">Quote</button>
+                </td>
+              </tr>
+            `;
+          }).join('');
+        }
+      });
+    });
+  </script>
+</body>
+</html>

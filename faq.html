@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Frequently Asked Questions (FAQ) | Aurum East Africa</title>
+  <meta name="description" content="Answers to common questions regarding bullion purchases, KYC documentation, payment methods, assaying, and vault storage.">
+  <link rel="canonical" href="https://aurumeastafrica.com/faq.html">
+
+  <link rel="icon" type="image/svg+xml" href="assets/logo/aurum-mark.svg">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How do I purchase physical gold from Aurum East Africa?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Submit an inquiry via our Get a Quote tool, complete KYC verification, receive an official Proforma Invoice with a locked price window, and execute payment via commercial bank transfer."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Are your prices fixed or do they change in real time?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Prices on our website are live indicative spot rates pegged to international bullion exchanges. When you receive a formal Proforma Invoice, the price is locked for 60 to 120 minutes."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Preloader -->
+  <div id="luxuryPreloader" class="luxury-preloader" aria-live="polite" role="status">
+    <div class="preloader-progress-bar"></div>
+    <div class="preloader-content">
+      <div class="preloader-emblem">
+        <svg viewBox="0 0 100 100" fill="none">
+          <polygon points="50,14 74,27 82,50 74,73 50,86 26,73 18,50 26,27" stroke="#C9A24B" stroke-width="2" fill="#14181F"/>
+          <path d="M50,22 L72,35 L50,48 L28,35 Z" fill="#E3C77A"/>
+          <path d="M28,35 L50,48 L50,76 L28,63 Z" fill="#8F6E24"/>
+          <path d="M50,48 L72,35 L72,63 L50,76 Z" fill="#C9A24B"/>
+        </svg>
+      </div>
+      <div class="preloader-brand">AURUM EAST AFRICA</div>
+      <div class="preloader-subtext">QUESTIONS &amp; ANSWERS</div>
+      <div class="preloader-status">
+        <span class="preloader-spinner"></span>
+        <span class="preloader-status-text">Loading FAQ Knowledge Base...</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Top Bar -->
+  <aside class="top-bar">
+    <div class="container">
+      <div class="top-bar-ticker">
+        <span class="ticker-pulse" aria-hidden="true"></span>
+        <span class="ticker-label">Indicative Spot:</span>
+        <span class="ticker-value tabular-nums" id="topBarTickerValue">$2,742.50 / oz • $88.17 / g</span>
+      </div>
+      <div class="top-bar-meta">
+        <a href="tel:+254207900000"><span>Support:</span> <strong>+254 20 790 0000</strong></a>
+        <a href="trust-centre.html" class="tabular-nums">Licence: <strong>ML/GD/2024/7821</strong></a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Header -->
+  <header class="site-header" role="banner">
+    <div class="container header-container">
+      <a href="index.html" class="site-brand">
+        <img src="assets/logo/aurum-logo.svg" alt="Aurum East Africa" width="280" height="52">
+      </a>
+      <nav class="primary-nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="buy-gold.html" class="nav-link">Buy Bullion</a>
+        <a href="prices.html" class="nav-link">Price Centre</a>
+        <a href="how-it-works.html" class="nav-link">How It Works</a>
+        <a href="trust-centre.html" class="nav-link">Trust Centre</a>
+        <div class="nav-item-dropdown">
+          <a href="#" class="nav-link active">Company ▾</a>
+          <div class="dropdown-menu">
+            <a href="about.html" class="dropdown-link">About Us</a>
+            <a href="sourcing.html" class="dropdown-link">Responsible Sourcing</a>
+            <a href="offices.html" class="dropdown-link">Offices</a>
+            <a href="learn.html" class="dropdown-link">Education Hub</a>
+            <a href="faq.html" class="dropdown-link active">FAQ</a>
+            <a href="contact.html" class="dropdown-link">Contact Desk</a>
+          </div>
+        </div>
+      </nav>
+      <div class="header-actions">
+        <div class="lang-selector">
+          <button type="button" class="lang-btn">🌐 <span id="currentLangLabel">EN</span> ▾</button>
+          <div class="lang-dropdown">
+            <button type="button" class="lang-option active" data-lang="en">English (EN)</button>
+            <button type="button" class="lang-option" data-lang="fr">Français (FR)</button>
+            <button type="button" class="lang-option" data-lang="sw">Kiswahili (SW)</button>
+          </div>
+        </div>
+        <button type="button" class="theme-toggle-btn"><span class="theme-icon">☀️</span></button>
+        <button type="button" class="btn btn-primary btn-sm trigger-quote-btn" data-intent="buy">Get a Quote</button>
+        <button type="button" class="menu-toggle-btn" id="menuToggleBtn"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div id="mobileDrawer" class="mobile-drawer" aria-hidden="true">
+    <div class="drawer-header">
+      <img src="assets/logo/aurum-logo.svg" alt="Aurum East Africa" height="38">
+      <button type="button" class="modal-close-btn" id="closeDrawerBtn">✕</button>
+    </div>
+    <nav class="drawer-nav">
+      <a href="index.html" class="drawer-link">Home <span>→</span></a>
+      <a href="buy-gold.html" class="drawer-link">Buy Bullion <span>→</span></a>
+      <a href="prices.html" class="drawer-link">Price Centre <span>→</span></a>
+      <a href="how-it-works.html" class="drawer-link">How It Works <span>→</span></a>
+      <a href="trust-centre.html" class="drawer-link">Trust Centre <span>→</span></a>
+      <a href="sourcing.html" class="drawer-link">Responsible Sourcing <span>→</span></a>
+      <a href="offices.html" class="drawer-link">Offices <span>→</span></a>
+      <a href="about.html" class="drawer-link">About Us <span>→</span></a>
+      <a href="learn.html" class="drawer-link">Education <span>→</span></a>
+      <a href="faq.html" class="drawer-link active">FAQ <span>→</span></a>
+      <a href="contact.html" class="drawer-link">Contact Desk <span>→</span></a>
+    </nav>
+  </div>
+
+  <!-- MAIN FAQ CONTENT -->
+  <main id="main-content" class="section">
+    <div class="container" style="max-width: 900px;">
+      <div class="section-header">
+        <div class="section-eyebrow">Clear Answers</div>
+        <h1 class="section-title">Frequently Asked Questions</h1>
+        <p class="section-subtitle">
+          Everything you need to know about buying bullion, identity verification, payment settlement, and international logistics.
+        </p>
+      </div>
+
+      <!-- Live Search Filter for FAQ -->
+      <div style="margin-bottom: var(--space-8);">
+        <input type="text" id="faqSearchInput" class="form-control" placeholder="🔍 Search by keyword (e.g., KYC, payment, assay, export, minimums)..." style="font-size: var(--text-base); padding: var(--space-4);">
+      </div>
+
+      <!-- FAQ Accordion Mount -->
+      <div class="accordion" id="faqAccordionContainer">
+        <!-- Rendered dynamically from data/faq.json -->
+      </div>
+
+      <!-- Unanswered Callout Card -->
+      <div class="card card-gold-accent" style="margin-top: var(--space-16); text-align: center; padding: var(--space-8);">
+        <h3 style="font-size: var(--text-2xl); margin-bottom: var(--space-2);">Have a Specific Contract Question?</h3>
+        <p style="font-size: var(--text-base); color: var(--color-text-secondary); margin-bottom: var(--space-6);">
+          Our compliance officers and trading desk managers are available for direct telephone or WhatsApp consultations.
+        </p>
+        <div style="display: flex; justify-content: center; gap: var(--space-4); flex-wrap: wrap;">
+          <a href="contact.html" class="btn btn-primary">Contact Trading Desk</a>
+          <a href="https://wa.me/254700000000" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">Direct WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="assets/logo/aurum-logo.svg" alt="Aurum East Africa" width="260" height="48">
+          <p>
+            Institutional precious metals trading house. Headquartered in Nairobi, Kenya, with specialized regional intake comptoirs in DRC and South Sudan.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4>Bullion Trading</h4>
+          <ul class="footer-links">
+            <li><a href="buy-gold.html">Bullion Catalogue</a></li>
+            <li><a href="prices.html">Live Price Centre</a></li>
+            <li><a href="how-it-works.html">Transaction Process</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Trust &amp; Governance</h4>
+          <ul class="footer-links">
+            <li><a href="trust-centre.html">Trust Centre (Licences)</a></li>
+            <li><a href="sourcing.html">Responsible Sourcing</a></li>
+            <li><a href="aml-kyc-policy.html">AML &amp; POCAMLA Policy</a></li>
+            <li><a href="privacy.html">Privacy Notice</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Regional Offices</h4>
+          <ul class="footer-links">
+            <li><a href="offices.html">Nairobi HQ (Riverside Drive)</a></li>
+            <li><a href="offices.html">DRC Comptoir (Goma)</a></li>
+            <li><a href="offices.html">Juba Branch (South Sudan)</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>© 2018–2026 Aurum East Africa Precious Metals Limited. All rights reserved.</div>
+        <div class="footer-bottom-links">
+          <a href="privacy.html">Privacy</a>
+          <a href="terms.html">Terms</a>
+          <a href="aml-kyc-policy.html">AML/KYC</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <aside class="mobile-sticky-bar" aria-label="Quick Mobile Actions">
+    <button type="button" class="btn btn-primary trigger-quote-btn" data-intent="buy">Get a Quote</button>
+    <a href="https://wa.me/254700000000" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">WhatsApp</a>
+  </aside>
+
+  <a href="https://wa.me/254700000000" target="_blank" rel="noopener noreferrer" class="floating-whatsapp" aria-label="WhatsApp Trading Desk">
+    <svg viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2"/></svg>
+  </a>
+
+  <script type="module" src="js/app.js"></script>
+  <script type="module">
+    document.addEventListener('DOMContentLoaded', async () => {
+      const container = document.getElementById('faqAccordionContainer');
+      const searchInput = document.getElementById('faqSearchInput');
+
+      let faqs = [];
+      try {
+        const res = await fetch('data/faq.json');
+        faqs = await res.json();
+      } catch (e) {
+        console.error("Failed to load faq.json", e);
+      }
+
+      const renderFaqs = (items) => {
+        if (!container) return;
+        if (items.length === 0) {
+          container.innerHTML = `<div style="text-align: center; padding: var(--space-8); color: var(--color-text-muted);">No questions match your search.</div>`;
+          return;
+        }
+
+        container.innerHTML = items.map((f, idx) => `
+          <details class="accordion-item" ${idx === 0 ? 'open' : ''}>
+            <summary class="accordion-trigger">
+              <span><span class="badge badge-gold" style="margin-right: var(--space-2);">${f.category}</span> ${f.question}</span>
+            </summary>
+            <div class="accordion-content">
+              ${f.answer}
+            </div>
+          </details>
+        `).join('');
+      };
+
+      renderFaqs(faqs);
+
+      searchInput?.addEventListener('input', (e) => {
+        const query = e.target.value.toLowerCase().trim();
+        const filtered = faqs.filter(f =>
+          f.question.toLowerCase().includes(query) ||
+          f.answer.toLowerCase().includes(query) ||
+          f.category.toLowerCase().includes(query)
+        );
+        renderFaqs(filtered);
+      });
+    });
+  </script>
+</body>
+</html>
