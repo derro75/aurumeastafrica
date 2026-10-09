@@ -50,6 +50,12 @@
     }
   }
   </script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const preloader = document.getElementById('luxuryPreloader');
+      if (preloader) window.setTimeout(() => preloader.classList.add('fade-out'), 1100);
+    });
+  </script>
 </head>
 <body>
   <!-- Accessible Skip Link -->

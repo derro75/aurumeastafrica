@@ -96,10 +96,10 @@ The **Luxury Preloader** was engineered specifically to satisfy the luxury finte
    - Dynamic numerical readout tracking loading percentage (`0%` to `100%`) alongside authentic status copy: *"Allocating Sovereign Reserves • Initializing Assayed Benchmarks"*.
 2. **Session Storage Intelligence:**
    - The preloader executes on first entry.
-   - Upon completion, `sessionStorage.setItem('aurum_preloader_seen', 'true')` is set.
-   - Subsequent internal page navigation bypasses the full delay, providing instantaneous page loads while preserving luxury branding.
+   - Upon completion, `sessionStorage.setItem('aurum_preloaded', 'true')` is set.
+   - Subsequent internal page navigation uses a shorter 250ms display before dismissal.
 3. **Graceful Timeout Fallback:**
-   - A hard safety fallback guarantees preloader dismissal after 1.8 seconds even if network latency delays background font loading.
+   - The preloader normally begins fading after 850ms on first entry and 250ms on return. A watchdog starts the fade no later than 2.2 seconds after initialization, keeping the full fade within 3 seconds.
 
 ---
 

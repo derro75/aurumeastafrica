@@ -14,10 +14,13 @@ class Application {
     this.quoteManager = null;
   }
 
-  async init() {
+  init() {
+    // Start the loader immediately so network-backed translations cannot delay dismissal.
+    this.setupLuxuryPreloader();
+
     // 1. Initialize Themes and I18n first to avoid layout flashes
     themeManager.init();
-    await i18n.init();
+    void i18n.init();
 
     // 2. Start Live Benchmark Price Service
     priceService.init();
@@ -25,18 +28,15 @@ class Application {
     // 3. Initialize Shared Quote Modal
     this.quoteManager = new QuoteModalManager();
 
-    // 4. Setup Luxury Preloader
-    this.setupLuxuryPreloader();
-
-    // 5. Setup Header & Navigation
+    // 4. Setup Header & Navigation
     this.setupHeader();
     this.setupMobileDrawer();
     this.setupLanguageDropdown();
 
-    // 6. Setup Live Price Mini-Tickers across Header and Hero
+    // 5. Setup Live Price Mini-Tickers across Header and Hero
     this.setupLiveTickers();
 
-    // 7. Setup Toast, Cookie Banner, and Scroll Reveals
+    // 6. Setup Toast, Cookie Banner, and Scroll Reveals
     this.setupCookieBanner();
     this.setupScrollReveal();
     this.setupAccordions();
@@ -60,10 +60,26 @@ class Application {
       isReturning = sessionStorage.getItem('aurum_preloaded') === 'true';
     } catch (e) {}
 
-    const targetDuration = isReturning ? 400 : 1200;
+    const targetDuration = isReturning ? 250 : 850;
     const startTime = performance.now();
+    let dismissed = false;
+    let watchdog;
+
+    const dismiss = () => {
+      if (dismissed) return;
+      dismissed = true;
+      clearTimeout(watchdog);
+      preloader.classList.add('fade-out');
+      try {
+        sessionStorage.setItem('aurum_preloaded', 'true');
+      } catch (e) {}
+    };
+
+    // Never leave the page covered if progress animation frames are delayed.
+    watchdog = setTimeout(dismiss, 2200);
 
     const updateProgress = (now) => {
+      if (dismissed) return;
       const elapsed = now - startTime;
       const progress = Math.min(100, Math.round((elapsed / targetDuration) * 100));
 
@@ -82,12 +98,7 @@ class Application {
       if (elapsed < targetDuration) {
         requestAnimationFrame(updateProgress);
       } else {
-        setTimeout(() => {
-          preloader.classList.add('fade-out');
-          try {
-            sessionStorage.setItem('aurum_preloaded', 'true');
-          } catch (e) {}
-        }, 180);
+        dismiss();
       }
     };
 
