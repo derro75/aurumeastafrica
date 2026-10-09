@@ -9,12 +9,15 @@
 .luxury-preloader {
   position: fixed;
   inset: 0;
+  min-height: 100vh;
+  min-height: 100dvh;
   background-color: #0B0D10;
   z-index: var(--z-preloader);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: max(1rem, env(safe-area-inset-top)) max(1rem, env(safe-area-inset-right)) max(1rem, env(safe-area-inset-bottom)) max(1rem, env(safe-area-inset-left));
   transition: opacity 0.65s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.65s;
   pointer-events: auto;
 }
@@ -39,8 +42,9 @@
 
 .preloader-content {
   text-align: center;
-  padding: var(--space-6);
-  max-width: 440px;
+  padding: var(--space-6) var(--space-4);
+  width: min(100%, 440px);
+  min-width: 0;
 }
 
 .preloader-emblem {
@@ -72,18 +76,20 @@
   font-family: var(--font-serif);
   font-size: var(--text-2xl);
   font-weight: 700;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.1em;
   color: #F5F1E8;
   margin-bottom: var(--space-2);
+  overflow-wrap: anywhere;
 }
 
 .preloader-subtext {
   font-family: var(--font-sans);
   font-size: var(--text-xs);
-  letter-spacing: 0.2em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--color-gold-light);
   margin-bottom: var(--space-6);
+  overflow-wrap: anywhere;
 }
 
 .preloader-status {
@@ -145,6 +151,15 @@
   padding: 0.45rem 1rem;
   font-size: var(--text-xs);
   min-height: 36px;
+}
+
+@media (max-width: 480px) {
+  .btn {
+    max-width: 100%;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    text-align: center;
+  }
 }
 
 /* Primary Button: Refined Metallic Gold with Shimmer */
@@ -495,10 +510,12 @@
 .calc-input-row {
   display: flex;
   gap: var(--space-2);
+  min-width: 0;
 }
 
 .calc-input {
   flex: 1;
+  min-width: 0;
   background: var(--color-bg-base);
   border: 1px solid var(--color-gold-border);
   border-radius: var(--radius-sm);
@@ -517,6 +534,8 @@
 }
 
 .calc-select {
+  min-width: 0;
+  max-width: 100%;
   background: var(--color-bg-base);
   border: 1px solid var(--color-gold-border);
   border-radius: var(--radius-sm);
@@ -741,6 +760,7 @@
   max-width: 640px;
   max-height: 90vh;
   overflow-y: auto;
+  overflow-x: hidden;
   box-shadow: var(--shadow-modal);
   position: relative;
   transform: scale(0.95);
@@ -825,6 +845,8 @@
 
 .form-control {
   width: 100%;
+  min-width: 0;
+  max-width: 100%;
   background: var(--color-bg-base);
   border: 1px solid var(--color-gold-border);
   border-radius: var(--radius-sm);
@@ -834,6 +856,17 @@
   font-size: var(--text-base);
   outline: none;
   transition: border-color var(--trans-fast);
+}
+
+.table-responsive {
+  max-width: 100%;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  -webkit-overflow-scrolling: touch;
+}
+
+.table-responsive > table {
+  min-width: 560px;
 }
 
 .form-control:focus {
@@ -919,6 +952,42 @@
   overflow-y: auto;
   display: flex;
   flex-direction: column;
+}
+
+@media (max-width: 480px) {
+  .modal-card {
+    max-height: calc(100dvh - 2rem);
+  }
+
+  .modal-header,
+  .modal-body,
+  .modal-footer {
+    padding: var(--space-4);
+  }
+
+  .quote-stepper-progress {
+    padding: var(--space-3) var(--space-4);
+    gap: var(--space-2);
+  }
+
+  .step-indicator {
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .form-group[style*="grid-template-columns"] {
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 0 !important;
+  }
+
+  .calc-input-row {
+    flex-direction: column;
+  }
+
+  .calc-input-row .calc-input,
+  .calc-input-row .calc-select {
+    width: 100%;
+  }
 }
 
 /* --------------------------------------------------------------------------

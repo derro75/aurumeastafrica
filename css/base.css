@@ -243,6 +243,11 @@ a {
   transition: color var(--trans-fast);
 }
 
+a[href^="mailto:"] {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
 a:hover {
   color: var(--color-gold-primary);
 }

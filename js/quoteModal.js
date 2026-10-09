@@ -170,11 +170,11 @@ export class QuoteModalManager {
         <div class="form-group">
           <label class="form-label" for="qDestinationInput">Settlement &amp; Delivery Destination</label>
           <select id="qDestinationInput" class="form-control">
-            <option value="Nairobi Vault Custody">Nairobi Vault Custody (Allocated &amp; Segregated)</option>
-            <option value="In-Person Collection (Nairobi HQ)">In-Person Collection (Nairobi HQ Private Salon)</option>
-            <option value="DRC Comptoir Handover">DRC Comptoir Handover (Goma / Kinshasa)</option>
-            <option value="Juba Branch Handover">Juba Branch Handover (South Sudan)</option>
-            <option value="Armored International Air Freight">Armored International Air Freight (JKIA Cargo Terminal)</option>
+            <option value="Nairobi Vault Custody">Nairobi Vault (Allocated &amp; Segregated)</option>
+            <option value="In-Person Collection (Nairobi HQ)">Collect at Nairobi HQ</option>
+            <option value="DRC Comptoir Handover">DRC Comptoir (Goma / Kinshasa)</option>
+            <option value="Juba Branch Handover">Juba Branch (South Sudan)</option>
+            <option value="Armored International Air Freight">Armored Air Freight (JKIA)</option>
           </select>
         </div>
       `;
