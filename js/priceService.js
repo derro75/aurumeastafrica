@@ -8,7 +8,8 @@ import { CONFIG } from '../config.js';
 
 class PriceService {
   constructor() {
-    this.currentSpotUsdPerOz = CONFIG.pricing.defaultSpotUsdPerOz;
+    this.defaultSpotUsdPerOz = (CONFIG.pricing.defaultSpotUsdPerKg * CONFIG.pricing.troyOunceToGrams) / 1000;
+    this.currentSpotUsdPerOz = this.defaultSpotUsdPerOz;
     this.currentCurrency = CONFIG.pricing.baseCurrency;
     this.lastUpdated = new Date();
     this.listeners = new Set();
@@ -134,7 +135,7 @@ class PriceService {
    * Generates realistic historical dataset for 1D, 1W, 1M, 1Y chart visualizer
    */
   generateHistoricalData() {
-    const base = CONFIG.pricing.defaultSpotUsdPerOz;
+    const base = this.defaultSpotUsdPerOz;
     return {
       "1D": [
         { time: "09:00", value: base - 4.5 },

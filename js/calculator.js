@@ -86,20 +86,20 @@ export class GoldCalculator {
 
             <div class="calc-result-row">
               <span class="calc-result-label">Live Spot Benchmark:</span>
-              <span class="calc-result-value tabular-nums" id="outSpotBaseline">$8,817.50</span>
+              <span class="calc-result-value tabular-nums" id="outSpotBaseline">$9,423.06</span>
             </div>
 
             <div class="calc-result-row">
               <span class="calc-result-label" id="lblPremiumSpread">Fabrication / Assay Margin:</span>
-              <span class="calc-result-value tabular-nums" id="outPremiumSpread">+$158.72 (+1.8%)</span>
+              <span class="calc-result-value tabular-nums" id="outPremiumSpread">+$169.62 (+1.8%)</span>
             </div>
           </div>
 
           <div class="calc-result-total">
             <span class="calc-result-label">Indicative Estimated Value</span>
-            <div class="calc-result-value tabular-nums" id="outTotalValue">$8,976.22</div>
+            <div class="calc-result-value tabular-nums" id="outTotalValue">$9,592.67</div>
             <div style="font-size: var(--text-xs); color: var(--color-gold-light); margin-top: var(--space-1);" id="outPricePerGram">
-              ≈ $89.76 / gram
+              ≈ $95.93 / gram
             </div>
           </div>
 

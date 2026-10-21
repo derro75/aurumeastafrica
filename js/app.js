@@ -210,6 +210,11 @@ class Application {
       const formattedPerOz = priceService.formatAmount(snapshot.spotPerOz);
       const formattedPerGram = priceService.formatAmount(snapshot.spotPerGram);
 
+      document.querySelectorAll('[data-price-weight-grams]').forEach((price) => {
+        const weightGrams = Number(price.dataset.priceWeightGrams);
+        price.textContent = priceService.formatAmount(snapshot.spotPerGram * weightGrams, 'USD');
+      });
+
       if (tickerVal) {
         tickerVal.textContent = `${formattedPerOz} / oz  •  ${formattedPerGram} / g`;
       }

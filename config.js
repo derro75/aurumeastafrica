@@ -88,8 +88,8 @@ export const CONFIG = {
     benchmarkUnit: "oz_troy", // 1 troy ounce = 31.1034768 grams
     troyOunceToGrams: 31.1034768,
     
-    // Default Indicative Spot Prices (Updated via priceService.js)
-    defaultSpotUsdPerOz: 2742.50,
+    // Default indicative fine-gold spot benchmark; the ounce price is derived by priceService.js.
+    defaultSpotUsdPerKg: 94240.00,
     
     // Spread and Margin Rules (Config-driven, never hardcoded in HTML)
     spread: {
