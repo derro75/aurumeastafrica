@@ -15,9 +15,9 @@
     "minimumOrder": "1 Bar",
     "packaging": "Sealed Tamper-Evident Security Pouch with Serialized Certificate",
     "images": [
-      "assets/images/products/bar-1kg-front.svg",
-      "assets/images/products/bar-1kg-angle.svg",
-      "assets/images/products/bar-1kg-assay.svg"
+      "assets/images/products/1-500-gram-bars.jpeg",
+      "assets/images/products/2-500-gram-bars.jpeg",
+      "assets/images/products/bullion-bars.jpeg"
     ],
     "documents": ["ke-independent-assay-report", "ke-min-dealer-license"],
     "description": "The definitive institutional gold reserve asset. Hand-poured with classic cast cooling ripples and struck with the Aurum East Africa hallmark, individual serial number, and verified fineness stamp.",
@@ -45,8 +45,8 @@
     "minimumOrder": "1 Bar",
     "packaging": "Sealed Certi-Card Blister with Holographic Seal & QR Verification",
     "images": [
-      "assets/images/products/bar-500g-front.svg",
-      "assets/images/products/bar-500g-angle.svg"
+      "assets/images/products/1-bars.png",
+      "assets/images/products/2-bars.png"
     ],
     "documents": ["ke-independent-assay-report"],
     "description": "A favored denomination for corporate wealth reserves and high-net-worth investors seeking an optimal balance of divisibility and low premium over spot.",
@@ -74,7 +74,9 @@
     "minimumOrder": "1 Bar",
     "packaging": "Sealed Security Blister with Integrated Assay Signature",
     "images": [
-      "assets/images/products/bar-250g-front.svg"
+      "assets/images/products/1-250-grams-bars.jpeg",
+      "assets/images/products/2-250-grams-bars.jpeg",
+      "assets/images/products/3-250-grams-bars.jpeg"
     ],
     "documents": ["ke-independent-assay-report"],
     "description": "Combines substantial precious metal value with convenient portfolio liquidity. Fully accepted across international bullion trading desks.",
@@ -101,8 +103,9 @@
     "minimumOrder": "1 Bar",
     "packaging": "Certi-Assay Sealed Card with Micro-Printed Security Border",
     "images": [
-      "assets/images/products/bar-100g-front.svg",
-      "assets/images/products/bar-100g-angle.svg"
+      "assets/images/products/3-100-grams-bars.jpeg",
+      "assets/images/products/2-100-grams-bars.jpeg",
+      "assets/images/products/1-100-grams-bars.jpeg"
     ],
     "documents": ["ke-independent-assay-report"],
     "description": "Our most popular entry point for private individuals building physical gold reserves. Sealed inside an individually numbered tamper-proof assay blister card.",
@@ -115,8 +118,8 @@
   },
   {
     "id": "gold-bar-1oz-9999",
-    "name": "1 Troy Ounce (31.1035g) Minted Bar",
-    "category": "Minted Bars",
+    "name": "1 Troy Ounce (31.1035g) Minted Nuggets",
+    "category": "Minted Nuggets",
     "weightGrams": 31.1035,
     "weightDisplay": "1 Troy Ounce (31.1 g)",
     "weightOz": 1.0000,
@@ -129,7 +132,7 @@
     "minimumOrder": "2 Bars",
     "packaging": "Tamper-Evident Credit Card Sized Sealed Blister",
     "images": [
-      "assets/images/products/bar-1oz-front.svg"
+      "assets/images/products/nuggets.jpg"
     ],
     "documents": ["ke-independent-assay-report"],
     "description": "The globally recognized universal standard of precious metals trading. 1 Troy Ounce of certified 999.9 fine gold, universally recognized and immediately convertible worldwide.",
@@ -153,10 +156,10 @@
     "finish": "Industrial Cast",
     "premiumPercent": 0.9,
     "availability": "Institutional Reserve / Available on Order",
-    "minimumOrder": "3 Bars",
-    "packaging": "Wooden Security Cask with Wax Seal and Laboratory Certificate",
+    "minimumOrder": "1 Bars",
+    "packaging": "Metalic Security Cask with Wax Seal and Laboratory Certificate",
     "images": [
-      "assets/images/products/bar-1kg-995.svg"
+      "assets/images/products/side-bars.jpg"
     ],
     "documents": ["ke-independent-assay-report", "ke-min-dealer-license"],
     "description": "The standard physical wholesale trading bar for the Middle East, India, and East Africa bullion corridor. Priced at the tightest possible premium over spot.",
@@ -183,7 +186,8 @@
     "minimumOrder": "5 kg Minimum Contract",
     "packaging": "High-Security Tamper-Sealed Mineral Transport Trays",
     "images": [
-      "assets/images/products/bar-dore-lot.svg"
+      "assets/images/products/pack-bars.jpg",
+      "assets/images/products/nuggets-packs.jpg"
     ],
     "documents": ["ke-min-dealer-license", "drc-mines-authorization", "customs-export-sample"],
     "description": "Commercial supply lots of responsibly aggregated unrefined gold doré from verified mining concessions in East and Central Africa. Available strictly to accredited corporate refiners and licensed comptoirs under full OECD traceability.",
