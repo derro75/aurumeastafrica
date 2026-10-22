@@ -61,8 +61,8 @@
     "issueDate": "2024-03-10",
     "expiryDate": "2026-03-09",
     "status": "Active Authorization",
-    "file": "assets/images/DRC-Mines.jpg",
-    "thumbnail": "assets/images/DRC-Mines.jpg",
+    "file": "assets/images/Export-permit.jpg",
+    "thumbnail": "assets/images/Export-permit.jpg",
     "verifyUrl": "https://mines.gouv.cd/comptoirs-agrees",
     "claimSource": "drc-mines-authorization",
     "description": "Official comptoir permit authorizing purchasing, testing, weighing, and legal transport of mineral substances from registered artisanal cooperatives."
